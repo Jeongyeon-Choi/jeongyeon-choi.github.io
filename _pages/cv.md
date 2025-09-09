@@ -25,7 +25,7 @@ layout: single
 ---
 
 ## Experience
-<span style="font-size:0.9em">
+<div span style="font-size:0.9em">
 
 - *2025–Present* — **Beatley Library, Simmons University**  
   Library Student Worker (Reference)  
@@ -36,4 +36,4 @@ layout: single
 - *2023–2024* — **Yonsei University Library**  
   Library Research Crew
 
-</span>
+</div>
