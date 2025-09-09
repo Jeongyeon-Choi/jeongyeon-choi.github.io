@@ -1,0 +1,69 @@
+/* --- CV Page Custom Styles --- */
+
+.cv-container {
+    max-width: 800px;
+    margin: 2rem auto; /* 위아래 여백 추가 */
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cv-container h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.entry {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+}
+
+.year {
+    background-color: #9B59B6;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.content .organization {
+    color: #555;
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.content .organization i {
+    color: #9B59B6;
+    margin-right: 0.5rem;
+}
+
+.content ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: circle;
+}
+
+.content ul ul {
+    list-style-type: square;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
