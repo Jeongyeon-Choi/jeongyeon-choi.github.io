@@ -6,6 +6,7 @@ layout: single
 
 ## Education
 <span style="font-size:0.9em">
+  
 - *2025–2027 (expected)* — **Yonsei University**  
   Master of Arts - Library and Information Science  
   
