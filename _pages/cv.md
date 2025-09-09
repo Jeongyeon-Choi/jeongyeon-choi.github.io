@@ -5,33 +5,34 @@ layout: single
 ---
 
 ## Education
-- **Simmons University**, Master of Library and Information Science (Expected 2027)  
-- **Yonsei University**, Master of Library and Information Science (2026)  
-- **Yonsei University**, B.A. in Library and Information Science & Interior Architecture (2024)
+<span style="font-size:0.9em">
+- *2025–2027 (expected)* — **Yonsei University**  
+  Master of Arts - Library and Information Science  
+  
+- *2025–2026 (expected)* — **Simmons University**  
+  Master of Library and Information Science - Information Science and Technology Concentration
 
----
+- *2021–2025* — **Yonsei University**  
+  Bachelor of Arts - Library and Information Science & Interior Architecture
 
-## Research Interests
-- Science of Science (Scholarly Communication, Open Peer Review)  
-- Mental Informatics (Substance Use, Suicidality, and Social Media Data)  
-- Metadata & Knowledge Organization  
+- *2023 Fall* — **Georgia Institute of Technology**  
+  Exchange Program - Architecture
+    
+
+</span>
 
 ---
 
 ## Experience
-- Graduate Research Assistant, DataLab, Yonsei University (2024–Present)  
-- Student Worker, Beatley Library, Simmons University (2025– )  
-- Volunteer, Yonsei Library Research Crew (2023–2024)  
+<span style="font-size:0.9em">
 
----
+- *2025–Present* — **Beatley Library, Simmons University**  
+  Library Student Worker (Reference)  
 
-## Publications & Presentations
-- Choi, J. (2025). *Open Peer Review and the Matthew Effect in Scholarly Communication*. iConference 2025.  
-- Choi, J. (2024). *Digital Divide and UX in Library Services*. Yonsei LIS Symposium.  
+- *2024–Present* — **DataLab, Yonsei University**  
+  Research Assistant  
 
----
+- *2023–2024* — **Yonsei University Library**  
+  Library Research Crew
 
-## Skills
-- **Programming:** Python (pandas, scikit-learn), R, SQL  
-- **Data Analysis:** Bibliometrics, NLP, Causal Inference  
-- **Languages:** Korean (native), English (fluent)  
+</span>
