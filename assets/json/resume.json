@@ -32,7 +32,13 @@
       "startDate": "2025-09",
       "endDate": "2026-05",
       "score": "10",
-      "summary": "<ul><li>School of Library and Information Science<ul><li>Information Science and Technology Concentration</li></ul></li></ul>"
+      "summary": "<ul>
+        <li>School of Library and Information Science
+          <ul>
+        <li>Information Science and Technology Concentration</li>
+          </ul>
+        </li>
+      </ul>"
     },
     {
       "institution": "Yonsei University",
@@ -43,8 +49,18 @@
       "startDate": "2021-03",
       "endDate": "2025-02",
       "score": "10",
-      "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li></ul>"
-      "summary": "<ul><li>College of Human Ecology<ul><li>Interior Architecture and Built Environment</li></ul></li></ul>"
+      "summary": "<ul>
+        <li>College of Liberal Arts
+          <ul>
+        <li>Library and Information Science</li>
+          </ul>
+        </li>
+        <li>College of Human Ecology
+          <ul>
+        <li>Interior Architecture and Built Environment</li>
+          </ul>
+        </li>
+      </ul>"
     },
     {
       "institution": "Georgia Institute of Technology",
@@ -55,7 +71,13 @@
       "startDate": "2023-09",
       "endDate": "2023-12",
       "score": "10",
-      "summary": "<ul><li>College of Design<ul><li>Architecture</li></ul></li></ul>"
+      "summary": "<ul>
+        <li>College of Design
+          <ul>
+        <li>School of Architecture</li>
+          </ul>
+        </li>
+      </ul>"
     }
   ],
   
