@@ -13,25 +13,21 @@
   contents:
     - title: Master of Arts
       institution: Yonsei University, Seoul, South Korea
-      year: 2025 - 2027
+      year: 2025-2027
       description:
         - College of Liberal Arts
-        - Description 2.
-        - title: Department of Library and Information Science
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Department of Library and Information Science
             
     - title: Master of Science
       institution: Simmons University, MA, United States
-      year: 2025.09 - 2026.05
+      year: 2025-2026
       description:
         - Dual Master's Degree Program
-        - Description 2.
         
     - title: Bachelor of Arts
       institution: Yonsei University, MA, United States
-      year: 2025.09 - 2026.05
+      year: 2021-2025
       description:
         - Dual Master's Degree Program
         - Description 2.
