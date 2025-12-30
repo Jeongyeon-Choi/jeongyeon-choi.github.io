@@ -3,34 +3,31 @@
   contents:
     - name: Full Name
       value: Jeongyeon Choi
-    - name: Date of Birth
-      value: 14th March 2002
     - name: Languages
       value: Korean, English
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Arts
+    - title: M.A., Library and Information Science
       institution: Yonsei University, Seoul, South Korea
-      year: 2025-2027
+      year: 2025–2027
       description:
-        - College of Liberal Arts
-          contents:
-            - Department of Library and Information Science
-            
-    - title: Master of Science
-      institution: Simmons University, MA, United States
-      year: 2025-2026
+        - Department of Library and Information Science
+        - Advised by Dr. Yongjun Zhu (DataLab)
+
+    - title: M.S., Library and Information Science (Information Science and Technology)
+      institution: Simmons University, Boston, MA, United States
+      year: 2025.09–2026.05
       description:
-        - Dual Master's Degree Program
-        
-    - title: Bachelor of Arts
-      institution: Yonsei University, MA, United States
-      year: 2021-2025
+        - Dual master’s degree program
+        - Expected graduation: May 2026
+
+    - title: B.A.
+      institution: Yonsei University, Seoul, South Korea
+      year: (edit this)
       description:
-        - Dual Master's Degree Program
-        - Description 2.
+        - (edit this)
 
 - title: Experience
   type: time_table
