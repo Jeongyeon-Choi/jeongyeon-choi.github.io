@@ -11,75 +11,52 @@
     "profiles": ""
   },
 
-  "education": [
-    {
-      "institution": "Yonsei University",
-      "location": "Seoul, South Korea",
-      "url": "https://www.yonsei.ac.kr/en_sc/index.do",
-      "area": "",
-      "studyType": "Master of Arts",
-      "startDate": "2025-03",
-      "endDate": "2027-08",
-      "score": "10",
-      "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li></ul>"
-    },
-    {
-      "institution": "Simmons University",
-      "location": "MA, United States",
-      "url": "https://www.simmons.edu/",
-      "area": "",
-      "studyType": "Master of Science",
-      "startDate": "2025-09",
-      "endDate": "2026-05",
-      "score": "10",
-      "summary": "<ul>
-        <li>School of Library and Information Science
-          <ul>
-        <li>Information Science and Technology Concentration</li>
-          </ul>
-        </li>
-      </ul>"
-    },
-    {
-      "institution": "Yonsei University",
-      "location": "Seoul, South Korea",
-      "url": "https://www.yonsei.ac.kr/en_sc/index.do",
-      "area": "",
-      "studyType": "Bachelor of Arts/Bachelor of Science",
-      "startDate": "2021-03",
-      "endDate": "2025-02",
-      "score": "10",
-      "summary": "<ul>
-        <li>College of Liberal Arts
-          <ul>
-        <li>Library and Information Science</li>
-          </ul>
-        </li>
-        <li>College of Human Ecology
-          <ul>
-        <li>Interior Architecture and Built Environment</li>
-          </ul>
-        </li>
-      </ul>"
-    },
-    {
-      "institution": "Georgia Institute of Technology",
-      "location": "GA, United States",
-      "url": "https://www.gatech.edu/",
-      "area": "",
-      "studyType": "Study Abroad Program",
-      "startDate": "2023-09",
-      "endDate": "2023-12",
-      "score": "10",
-      "summary": "<ul>
-        <li>College of Design
-          <ul>
-        <li>School of Architecture</li>
-          </ul>
-        </li>
-      </ul>"
-    }
-  ],
+"education": [
+  {
+    "institution": "Yonsei University",
+    "location": "Seoul, South Korea",
+    "url": "https://www.yonsei.ac.kr/en_sc/index.do",
+    "area": "Library and Information Science",
+    "studyType": "Master of Arts",
+    "startDate": "2025-03",
+    "endDate": "2027-08",
+    "score": "10",
+    "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li></ul>"
+  },
+  {
+    "institution": "Simmons University",
+    "location": "Boston, MA, United States",
+    "url": "https://www.simmons.edu/",
+    "area": "Library and Information Science",
+    "studyType": "Master of Science",
+    "startDate": "2025-09",
+    "endDate": "2026-05",
+    "score": "10",
+    "summary": "<ul><li>School of Library and Information Science<ul><li>Information Science and Technology Concentration</li></ul></li></ul>"
+  },
+  {
+    "institution": "Yonsei University",
+    "location": "Seoul, South Korea",
+    "url": "https://www.yonsei.ac.kr/en_sc/index.do",
+    "area": "Library and Information Science / Interior Architecture",
+    "studyType": "Bachelor of Arts / Bachelor of Science",
+    "startDate": "2021-03",
+    "endDate": "2025-02",
+    "score": "10",
+    "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li><li>College of Human Ecology<ul><li>Interior Architecture and Built Environment</li></ul></li></ul>"
+  },
+  {
+    "institution": "Georgia Institute of Technology",
+    "location": "Atlanta, GA, United States",
+    "url": "https://www.gatech.edu/",
+    "area": "Architecture",
+    "studyType": "Study Abroad Program",
+    "startDate": "2023-09",
+    "endDate": "2023-12",
+    "score": "10",
+    "summary": "<ul><li>College of Design<ul><li>School of Architecture</li></ul></li></ul>"
+  }
+],
   
   "work": [
     {
