@@ -8,12 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +18,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a master’s student in the [Department of Library and Information Science](https://yslis.yonsei.ac.kr/doai/index.do) at Yonsei University, studying under the supervision of Dr. Yongjun Zhu at [DataLab](https://datalab.yonsei.ac.kr/). In parallel, I am enrolled in a dual master’s degree program at Simmons University, specializing in [Information Science and Technology](https://www.simmons.edu/graduate/academic-programs/graduate-and-certificate-programs/library-and-information-science-information-science-technology).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research is driven by a strong interest in applying data science techniques to real-world information problems. I primarily work in the areas of [science of science](https://en.wikipedia.org/wiki/Metascience), [mental health informatics](https://en.wikipedia.org/wiki/Mental_health_informatics), and [computational social science](https://en.wikipedia.org/wiki/Computational_social_science). Using methods from data science and computational analysis, I study large-scale datasets such as academic publications, bibliometric records, and social media content to explore how knowledge is produced, evaluated, and experienced in digital environments.
