@@ -22,7 +22,7 @@
       "endDate": "2027-08",
       "score": "10",
       "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li></ul>"
-    }
+    },
     {
       "institution": "Simmons University",
       "location": "MA, United States",
@@ -33,7 +33,7 @@
       "endDate": "2026-05",
       "score": "10",
       "summary": "<ul><li>School of Library and Information Science<ul><li>Information Science and Technology Concentration</li></ul></li></ul>"
-    }
+    },
     {
       "institution": "Yonsei University",
       "location": "Seoul, South Korea",
@@ -45,7 +45,7 @@
       "score": "10",
       "summary": "<ul><li>College of Liberal Arts<ul><li>Library and Information Science</li></ul></li></ul>"
       "summary": "<ul><li>College of Human Ecology<ul><li>Interior Architecture and Built Environment</li></ul></li></ul>"
-    }
+    },
     {
       "institution": "Georgia Institute of Technology",
       "location": "GA, United States",
