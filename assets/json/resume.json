@@ -79,15 +79,6 @@
   
   "work": [
     {
-      "name": "DataLab, Yonsei University",
-      "position": "Research Assistant",
-      "url": "https://datalab.yonsei.ac.kr/",
-      "startDate": "2024-03",
-      "endDate": "present",
-      "summary": "",
-      "highlights": ["Science of Science", "Mental Health Informatics"]
-    },
-    {
       "name": "Beatley Library, Simmons University",
       "position": "Library Reference Assistant",
       "url": "https://www.simmons.edu/library",
@@ -133,6 +124,7 @@
       "highlights": ["Interviewing", "Writing"]
     }
   ],
+  
   "volunteer": [
     {
       "organization": "People's Climate March",
