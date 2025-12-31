@@ -23,18 +23,54 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-.education-summary {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+
+/* =========================================================
+   Education: align institution/area/summary at same hierarchy
+   ========================================================= */
+
+/* Make headings inside the education block compact */
+.education-block h6 {
+  margin: 0 0 0.25rem 0;
 }
 
+/* Summary wrapper: no extra indent */
+.education-summary {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default UL indent, then add minimal padding for bullets only */
 .education-summary ul {
-  margin-left: 0 !important;
+  margin: 0;
+  padding-left: 1.1rem; /* minimal indent so bullets show */
+}
+
+/* Nested list styling (square bullets like your screenshot) */
+.education-summary ul ul {
+  margin-top: 0.25rem;
+  padding-left: 1.2rem;
+  list-style-type: square;
+}
+
+/* Courses list (if used) aligns similarly */
+.education-courses {
+  margin: 0.25rem 0 0;
   padding-left: 1.1rem;
 }
 
-.education-summary ul ul {
+/* Optional: neutralize extra left margin utilities inside education summary,
+   in case ml-* got applied elsewhere */
+.education-block .education-summary,
+.education-block .education-summary * {
   margin-left: 0 !important;
-  padding-left: 1.2rem;
-  list-style-type: square;
+}
+
+/* Mobile friendliness: nothing special needed, but keep it safe */
+@media (max-width: 768px) {
+  .education-summary ul {
+    padding-left: 1.1rem;
+  }
+  .education-summary ul ul {
+    padding-left: 1.2rem;
+  }
 }
