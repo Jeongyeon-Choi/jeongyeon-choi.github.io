@@ -30,11 +30,11 @@ $max-content-width: {{ site.max_width }};
 
 .education-summary ul {
   margin-left: 0 !important;
-  padding-left: 0;
+  padding-left: 1.1rem;
 }
 
 .education-summary ul ul {
   margin-left: 0 !important;
-  padding-left: 0;
+  padding-left: 1.2rem;
   list-style-type: square;
 }
