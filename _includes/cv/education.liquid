@@ -48,33 +48,33 @@
             {% endif %}
           </h6>
 
-          {% if content.institution and content.institution != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          {% endif %}
-
-          {% if content.area and content.area != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          {% endif %}
-
           {%- comment -%}
-            1) Preferred: render nested bullets from `summary` if provided (HTML <ul> supported)
+            Make institution/area/summary share the same left alignment:
+            apply ml-* ONCE to a wrapper, not to each line.
           {%- endcomment -%}
-          {% if content.summary and content.summary != '' %}
-            <div class="ml-1 ml-md-4 education-summary">
-              {{ content.summary }}
-            </div>
-          {% endif %}
+          <div class="ml-1 ml-md-4 education-block">
+            {% if content.institution and content.institution != '' %}
+              <h6 class="education-institution" style="font-size: 0.95rem">{{ content.institution }}</h6>
+            {% endif %}
 
-          {%- comment -%}
-            2) Keep existing behavior: render `courses` (flat bullet list) if provided
-          {%- endcomment -%}
-          {% if content.courses and content.courses.size > 0 %}
-            <ul class="ml-1 ml-md-4 items">
-              {% for item in content.courses %}
-                <li><span class="item">{{ item }}</span></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
+            {% if content.area and content.area != '' %}
+              <h6 class="education-area" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+            {% endif %}
+
+            {% if content.summary and content.summary != '' %}
+              <div class="education-summary">
+                {{ content.summary }}
+              </div>
+            {% endif %}
+
+            {% if content.courses and content.courses.size > 0 %}
+              <ul class="items education-courses">
+                {% for item in content.courses %}
+                  <li><span class="item">{{ item }}</span></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
         </div>
       </div>
     </li>
