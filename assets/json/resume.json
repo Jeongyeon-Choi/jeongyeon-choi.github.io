@@ -129,15 +129,25 @@
   
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+      "organization": "National Library of Korea",
+      "location": "",
+      "position": "Youth-led Digital Educator",
+      "url": "https://www.nl.go.kr/EN/main/index.do",
+      "startDate": "2025-07",
+      "endDate": "",
+      "summary": "Supported practical training sessions for video content creators.",
+      "highlights": ""
+    },
+    {
+      "organization": "Department of Library and Information Science, Yonsei University",
+      "location": "",
+      "position": "Library Volunteer Leader",
+      "url": "",
+      "startDate": "2022-03",
+      "endDate": "2023-02",
+      "summary": "Assisted with book shelving and user program operations at a local community librarires.",
+      "highlights": ""
+    }   
   ],
 
   "awards": [
