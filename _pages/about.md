@@ -6,7 +6,7 @@ subtitle: <a href='#'>M.A. Student at Yonsei University</a>.
 
 profile:
   align: right
-  image: Jeongyeon Choi_headshot.jpg
+  image: jeongyeon-choi-headshot.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
