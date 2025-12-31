@@ -60,13 +60,58 @@
   
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "DataLab, Yonsei University",
+      "position": "Research Assistant",
+      "url": "https://datalab.yonsei.ac.kr/",
+      "startDate": "2024-03",
+      "endDate": "present",
+      "summary": "",
+      "highlights": ["Science of Science", "Mental Health Informatics"]
+    },
+    {
+      "name": "Beatley Library, Simmons University",
+      "position": "Library Reference Assistant",
+      "url": "https://www.simmons.edu/library",
+      "startDate": "2025-09",
+      "endDate": "2026-05",
+      "summary": "",
+      "highlights": ["User Services", "Interlibrary Loan System"]
+    },
+    {
+      "name": "Information Science & Technology Lab, Simmons University",
+      "position": "Web Development Graduate Assistant",
+      "url": "https://slis.simmons.edu/istlab/",
+      "startDate": "2025-10",
+      "endDate": "2025-12",
+      "summary": "",
+      "highlights": ["HTML/CSS", "WordPress"]
+    },
+    {
+      "name": "Yonsei·Samsung Library, Yonsei University",
+      "position": "Research Services Assistant",
+      "url": "https://library.yonsei.ac.kr/",
+      "startDate": "2024-11",
+      "endDate": "2025-08",
+      "summary": "",
+      "highlights": ["Web of Science, InCites B&A", "Python"]
+    },
+    {
+      "name": "CyrenCare (remote)",
+      "position": "UX/UI Research Intern",
+      "url": "https://www.cyrencare.com/",
+      "startDate": "2023-05",
+      "endDate": "2023-08",
+      "summary": "",
+      "highlights": ["Figma", "A/B Test"]
+    },
+    {
+      "name": "Ministry of Culture, Sports, and Tourism",
+      "position": "Undergraduate Student Reporter",
+      "url": "https://www.mcst.go.kr/english/index.jsp",
+      "startDate": "2022-01",
+      "endDate": "2022-12",
+      "summary": "",
+      "highlights": ["Interviewing", "Writing"]
     }
   ],
   "volunteer": [
