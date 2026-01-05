@@ -97,6 +97,10 @@ layout: default
                   {% include cv/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
+                {% when 'scholarships' %}
+                  {% include resume/scholarships.liquid %}
+                {% when 'membership' %}
+                  {% include resume/membership.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
