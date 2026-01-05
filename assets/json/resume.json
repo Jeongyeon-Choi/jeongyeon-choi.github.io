@@ -126,6 +126,93 @@
       "highlights": ["Interviewing", "Writing"]
     }
   ],
+
+  
+  "awards": [
+    {
+      "title": "Graduate Student Research Award",
+      "date": "2025-12",
+      "awarder": "The Office of Research and Fellowships, Simmons University",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": ""
+    },
+    {
+      "title": "Excellence in Research Trend Analysis Contest",
+      "date": "2024-08",
+      "awarder": "Yonsei·Samsung Library, Yonsei University",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "Honorable Mention for “A Comparative Study of Digital Library Research Trends in Korea and International Contexts”"
+    },
+    {
+      "title": "Ministerial Award",
+      "date": "2023-01",
+      "awarder": "Ministry of Culture, Sports, and Tourism",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": ""
+    },
+    {
+      "title": "Literary Museum Metaverse Map Production Contest",
+      "date": "2022-01",
+      "awarder": "Literary Museum of Poet Yun Dongju, Yonsei University",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "Grand Award for a project using gather.town"
+    },
+    {
+      "title": "Reading and Presentation Contest",
+      "date": "2021-11",
+      "awarder": "Literary Museum of Poet Yun Dongju, Yonsei University",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "Excellence Award for a presentation on “Coexistence in the Era of Infectious Diseases”"
+    }
+  ],
+
+    "scholarships": [
+    {
+      "organization": "Yonsei University",
+      "position": "Accelerated B.A./M.A. Scholarship",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2027-02",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "Yonsei University",
+      "position": "Dual Master’s Degree Student Scholarship",
+      "url": "",
+      "startDate": "2025-09",
+      "endDate": "2026-05",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "National Research Foundation of Korea",
+      "position": "BrainKorea(BK) 21 Scholarship",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2026-02",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "STX Foundation",
+      "position": "Undergraduate Scholarship",
+      "url": "",
+      "startDate": "2023-03",
+      "endDate": "2025-02",
+      "summary": "Delivered workshops on creating visual content.",
+      "highlights": ""
+    },
+    {
+      "organization": "Yonsei University",
+      "position": "Merit-based Scholarship",
+      "url": "",
+      "startDate": "2021-09",
+      "endDate": "2023-08",
+      "summary": "",
+      "highlights": ""
+    }
+  ],
   
   "volunteer": [
     {
@@ -181,92 +268,6 @@
       "endDate": "2021-12",
       "summary": "Organized inter-university events and alumni programs.",
       "highlights": ""
-    }
-  ],
-
-  "scholarships": [
-    {
-      "organization": "Yonsei University",
-      "position": "Accelerated B.A./M.A. Scholarship",
-      "url": "",
-      "startDate": "2025-03",
-      "endDate": "2027-02",
-      "summary": "",
-      "highlights": ""
-    },
-    {
-      "organization": "Yonsei University",
-      "position": "Dual Master’s Degree Student Scholarship",
-      "url": "",
-      "startDate": "2025-09",
-      "endDate": "2026-05",
-      "summary": "",
-      "highlights": ""
-    },
-    {
-      "organization": "National Research Foundation of Korea",
-      "position": "BrainKorea(BK) 21 Scholarship",
-      "url": "",
-      "startDate": "2025-03",
-      "endDate": "2026-02",
-      "summary": "",
-      "highlights": ""
-    },
-    {
-      "organization": "STX Foundation",
-      "position": "Undergraduate Scholarship",
-      "url": "",
-      "startDate": "2023-03",
-      "endDate": "2025-02",
-      "summary": "Delivered workshops on creating visual content.",
-      "highlights": ""
-    },
-    {
-      "organization": "Yonsei University",
-      "position": "Merit-based Scholarship",
-      "url": "",
-      "startDate": "2021-09",
-      "endDate": "2023-08",
-      "summary": "",
-      "highlights": ""
-    }
-  ],
-
-  "awards": [
-    {
-      "title": "Graduate Student Research Award",
-      "date": "2025-12",
-      "awarder": "The Office of Research and Fellowships, Simmons University",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": ""
-    },
-    {
-      "title": "Excellence in Research Trend Analysis Contest",
-      "date": "2024-08",
-      "awarder": "Yonsei·Samsung Library, Yonsei University",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "Honorable Mention for “A Comparative Study of Digital Library Research Trends in Korea and International Contexts”"
-    },
-    {
-      "title": "Ministerial Award",
-      "date": "2023-01",
-      "awarder": "Ministry of Culture, Sports, and Tourism",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": ""
-    },
-    {
-      "title": "Literary Museum Metaverse Map Production Contest",
-      "date": "2022-01",
-      "awarder": "Literary Museum of Poet Yun Dongju, Yonsei University",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "Grand Award for a project using gather.town"
-    },
-    {
-      "title": "Reading and Presentation Contest",
-      "date": "2021-11",
-      "awarder": "Literary Museum of Poet Yun Dongju, Yonsei University",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "Excellence Award for a presentation on “Coexistence in the Era of Infectious Diseases”"
     }
   ],
 
