@@ -1,3 +1,4 @@
+<p>DEBUG scholarships count: {{ data[1].size }}</p>
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign scholarships = data[1] | sort: 'startDate' | reverse %}
   {% for content in volunteer %}
