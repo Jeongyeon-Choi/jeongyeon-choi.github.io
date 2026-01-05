@@ -184,6 +184,54 @@
     }
   ],
 
+  "scholarships": [
+    {
+      "organization": "Yonsei University",
+      "position": "Accelerated B.A./M.A. Scholarship",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2027-02",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "Yonsei University",
+      "position": "Dual Master’s Degree Student Scholarship",
+      "url": "",
+      "startDate": "2025-09",
+      "endDate": "2026-05",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "National Research Foundation of Korea",
+      "position": "BrainKorea(BK) 21 Scholarship",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2026-02",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "organization": "STX Foundation",
+      "position": "Undergraduate Scholarship",
+      "url": "",
+      "startDate": "2023-03",
+      "endDate": "2025-02",
+      "summary": "Delivered workshops on creating visual content.",
+      "highlights": ""
+    },
+    {
+      "organization": "Yonsei University",
+      "position": "Merit-based Scholarship",
+      "url": "",
+      "startDate": "2021-09",
+      "endDate": "2023-08",
+      "summary": "",
+      "highlights": ""
+    }
+  ],
+
   "awards": [
     {
       "title": "Graduate Student Research Award",
@@ -193,7 +241,7 @@
       "summary": ""
     },
     {
-      "title": "Excellence in Research Trend Analysis",
+      "title": "Excellence in Research Trend Analysis Contest",
       "date": "2024-08",
       "awarder": "Yonsei·Samsung Library, Yonsei University",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
@@ -229,11 +277,10 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "pandas",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "numpy",
+        "scipy",
+        "statsmodels",
+        "scikit-learn"
       ]
     }
   ],
