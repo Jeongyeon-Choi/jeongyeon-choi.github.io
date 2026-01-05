@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign membership = data[1] | sort: 'startDate' | reverse %}
+  {% assign membership = site.data.resume.membership | sort: 'startDate' | reverse %}
   {% for content in membership %}
     <li class="list-group-item">
       <div class="row">
