@@ -166,14 +166,15 @@
     }
   ],
 
-    "scholarships": [
+"scholarships": [
     {
       "organization": "Yonsei University",
       "position": "Accelerated B.A./M.A. Scholarship",
       "url": "",
       "startDate": "2025-03",
       "endDate": "2027-02",
-      "summary": ""
+      "summary": "",
+      "highlights": []
     },
     {
       "organization": "Yonsei University",
@@ -181,7 +182,8 @@
       "url": "",
       "startDate": "2025-09",
       "endDate": "2026-05",
-      "summary": ""
+      "summary": "",
+      "highlights": []
     },
     {
       "organization": "National Research Foundation of Korea",
@@ -189,7 +191,8 @@
       "url": "",
       "startDate": "2025-03",
       "endDate": "2026-02",
-      "summary": ""
+      "summary": "",
+      "highlights": []
     },
     {
       "organization": "STX Foundation",
@@ -197,7 +200,8 @@
       "url": "",
       "startDate": "2023-03",
       "endDate": "2025-02",
-      "summary": ""
+      "summary": "",
+      "highlights": []
     },
     {
       "organization": "Yonsei University",
@@ -205,7 +209,8 @@
       "url": "",
       "startDate": "2021-09",
       "endDate": "2023-08",
-      "summary": ""
+      "summary": "",
+      "highlights": []
     }
   ],
   
@@ -281,7 +286,7 @@
     }
   ],
 
-  "membership": [
+"membership": [
     {
       "organization": "Google Developer Group on Campus (GDGoC), Yonsei University",
       "position": "Design & ML/AI Member",
@@ -290,9 +295,9 @@
       "endDate": "2025-07",
       "summary": "",
       "highlights": [
-      "Collaborated with front-end and back-end developers on a web development project.",
-      "Designed and contributed to the development of Siren, a voice-activated safety alert service, and Moneyfit, a financial management service."
-    ]
+        "Collaborated with front-end and back-end developers on a web development project.",
+        "Designed and contributed to the development of Siren, a voice-activated safety alert service, and Moneyfit, a financial management service."
+      ]
     },
     {
       "organization": "HCI/UX Academia UXIM, Yonsei University",
@@ -301,7 +306,7 @@
       "startDate": "2022-01",
       "endDate": "2022-12",
       "summary": "",
-      "highlights": ""
+      "highlights": [] 
     }
   ],
   
