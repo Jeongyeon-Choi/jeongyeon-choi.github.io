@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Awarded 2025-26 Graduate Student Research Award @ Simmons University
-date: 2025-01 16:11:00-0400
+title: [Awarded 2025-26 Graduate Student Research Award @ Simmons University](https://www.simmons.edu/news/2025-26-graduate-student-research-award-recipients)
+date: 2025-01-16 16:11:00-0400
 inline: false
 related_posts: false
 ---
-[Awarded Graduate Student Research Award @ Simmons University](https://www.simmons.edu/news/2025-26-graduate-student-research-award-recipients)
+
 ---
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
