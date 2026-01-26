@@ -77,7 +77,7 @@ $max-content-width: {{ site.max_width }};
 
 .cv a,
 .cv a:visited {
-  color: #AB00AF !important;
+  color: #000000 !important;
   text-decoration: none !important;
 }
 
@@ -85,18 +85,4 @@ $max-content-width: {{ site.max_width }};
 .cv a:focus {
   color: #000000 !important;
   text-decoration: underline !important;
-}
-
-#volunteer h6.title a {
-  color: #AB00AF !important;
-  text-decoration: none !important;
-  pointer-events: none !important;  
-  cursor: default !important;
-}
-
-#scholarships h6.title a {
-  color: #AB00AF !important;
-  text-decoration: none !important;
-  pointer-events: none !important;  
-  cursor: default !important;
 }
