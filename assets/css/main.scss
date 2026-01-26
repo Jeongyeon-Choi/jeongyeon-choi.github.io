@@ -74,3 +74,13 @@ $max-content-width: {{ site.max_width }};
     padding-left: 1.2rem;
   }
 }
+
+.cv a,
+.cv a:visited,
+.cv a:hover,
+.cv a:focus {
+  color: #6f42c1 !important;
+  text-decoration: none !important;
+  pointer-events: none;
+  cursor: default !important;
+}
