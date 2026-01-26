@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visualizing Road Dust in Seoul
-description: Mapping and analyzing road-resuspended PM10 in Seoul
+description: LIS2812 Introduction to Data Science
 img: assets/img/seoul_dust_map.jpg
 importance: 1
 category: 2023
@@ -49,7 +49,7 @@ On the map, each road segment is represented by a colored circle showing polluti
 
 ## 🗺 Road Dust Map
 
-To understand spatial and temporal patterns of road-resuspended dust, I created visualizations for each month and a combined overview.
+To understand spatial and temporal patterns of road-resuspended dust, I created visualizations for each month.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
