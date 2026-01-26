@@ -66,10 +66,6 @@ To understand spatial and temporal patterns of road-resuspended dust, I created 
   </div>
 </div>
 
-<div class="caption">
-From left to right: January, February, and March PM10 road dust levels in Seoul
-</div>
-
 Across the three months, most areas fell into the **“Very Good”** pollution category, but some districts showed noticeable month-to-month variation. 
 
 ---
