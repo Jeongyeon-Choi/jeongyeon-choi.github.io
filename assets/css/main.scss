@@ -81,9 +81,32 @@ $max-content-width: {{ site.max_width }};
   text-decoration: none !important;
 }
 
-/* 링크 hover 시에만 효과 */
 .cv a:hover,
 .cv a:focus {
   color: #AB00AF !important;
   text-decoration: underline !important;
+}
+
+#volunteer .card-title a {
+  color: #AB00AF !important;
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+#volunteer .card-title a:hover,
+#volunteer .card-title a:focus {
+  color: #AB00AF !important;
+  text-decoration: none !important;
+}
+
+#scholarships .card-title a {
+  color: #AB00AF !important;
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+#scholarships .card-title a:hover,
+#scholarships .card-title a:focus {
+  color: #AB00AF !important;
+  text-decoration: none !important;
 }
