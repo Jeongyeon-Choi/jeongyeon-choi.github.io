@@ -76,11 +76,14 @@ $max-content-width: {{ site.max_width }};
 }
 
 .cv a,
-.cv a:visited,
+.cv a:visited {
+  color: #AB00AF !important;
+  text-decoration: none !important;
+}
+
+/* 링크 hover 시에만 효과 */
 .cv a:hover,
 .cv a:focus {
-  color: #9370DB !important;
-  text-decoration: none !important;
-  pointer-events: none;
-  cursor: default !important;
+  color: #AB00AF !important;
+  text-decoration: underline !important;
 }
