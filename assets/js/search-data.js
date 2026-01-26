@@ -46,7 +46,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-visualizing-road-dust-in-seoul",
           title: 'Visualizing Road Dust in Seoul',
-          description: "Mapping and analyzing road-resuspended PM10 in Seoul",
+          description: "LIS2812 Introduction to Data Science",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
