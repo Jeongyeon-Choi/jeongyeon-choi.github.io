@@ -18,8 +18,7 @@ Using open environmental data, I mapped regional differences in dust levels and 
 
 ## 📊 Data
 
-The dataset comes from the **Korea Environment Corporation**, which measures road dust using a mobile monitoring system (TRAKER).  
-I used monthly data from **January–March 2023** in Seoul.
+The dataset comes from the **Korea Environment Corporation**, which measures road dust using a mobile monitoring system (TRAKER). I used monthly data from **January–March 2023** in Seoul.
 
 **Key variables included:**
 
