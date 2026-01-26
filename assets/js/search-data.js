@@ -44,9 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-2025-26-graduate-student-research-award-simmons-university",
           title: 'Awarded 2025-26 Graduate Student Research Award @ Simmons University',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-visualizing-road-dust-in-seoul",
+          title: 'Visualizing Road Dust in Seoul',
+          description: "Mapping and analyzing road-resuspended PM10 in Seoul",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
