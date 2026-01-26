@@ -87,26 +87,16 @@ $max-content-width: {{ site.max_width }};
   text-decoration: underline !important;
 }
 
-#volunteer .card-title a {
+#volunteer h6.title a {
   color: #AB00AF !important;
   text-decoration: none !important;
+  pointer-events: none !important;  
   cursor: default !important;
 }
 
-#volunteer .card-title a:hover,
-#volunteer .card-title a:focus {
+#scholarships h6.title a {
   color: #AB00AF !important;
   text-decoration: none !important;
-}
-
-#scholarships .card-title a {
-  color: #AB00AF !important;
-  text-decoration: none !important;
+  pointer-events: none !important;  
   cursor: default !important;
-}
-
-#scholarships .card-title a:hover,
-#scholarships .card-title a:focus {
-  color: #AB00AF !important;
-  text-decoration: none !important;
 }
