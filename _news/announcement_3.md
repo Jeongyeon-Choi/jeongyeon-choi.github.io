@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Graduated summa cum laude from Yonsei University with highest honors :sparkles: :smile:
