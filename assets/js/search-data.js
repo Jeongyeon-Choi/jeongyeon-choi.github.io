@@ -35,11 +35,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-started-my-master-s-in-library-and-information-science-simmons-university",
+          title: 'Started my Master’s in Library and Information Science @ Simmons University.',
           description: "",
           section: "News",},{id: "news-awarded-2025-26-graduate-student-research-award-simmons-university",
           title: 'Awarded 2025-26 Graduate Student Research Award @ Simmons University',
