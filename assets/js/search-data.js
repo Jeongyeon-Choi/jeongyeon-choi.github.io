@@ -35,8 +35,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-graduated-summa-cum-laude-from-yonsei-university-with-highest-honors-sparkles-smile",
+          title: 'Graduated summa cum laude from Yonsei University with highest honors :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-started-my-master-s-in-library-and-information-science-simmons-university",
           title: 'Started my Master’s in Library and Information Science @ Simmons University.',
