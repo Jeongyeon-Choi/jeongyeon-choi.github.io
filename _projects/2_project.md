@@ -1,6 +1,6 @@
 ---
 layout: page
-title: “Boricua, Morena” : The Art of the GN Crew
+title: Boricua, Morena : The Art of the GN Crew
 description: LIS448 Digital Stewardship
 img: assets/img/gncrew_cover.jpg
 importance: 1
@@ -63,7 +63,7 @@ The digital exhibit was designed with a clear, user-friendly structure.
 It is organized into **two main sections**:
 
 1. **GN Crew Members**
-2. **Collaborating Artists**
+2. **GN Crew Collaborators**
 
 Each section first presents an overview of murals, after which users can **navigate by individual artist**.
 
@@ -80,11 +80,11 @@ Clicking an artwork leads to a detailed item page showing images and the full se
 
 This project highlights:
 
-✔ Application of **metadata standards** (Dublin Core)  
-✔ Use of **controlled vocabularies** for subject access  
-✔ Digital curation using **Omeka**  
-✔ Exhibit design for **public engagement**  
-✔ Integration of **place-based context** through mapping  
+- Application of **metadata standards** (Dublin Core)
+- Use of **controlled vocabularies** for subject access
+- Digital curation using **Omeka**
+- Exhibit design for **public engagement**
+- Integration of **place-based context** through mapping  
 
 ---
 
