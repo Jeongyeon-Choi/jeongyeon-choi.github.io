@@ -12,7 +12,7 @@ category: 2025
 This project is a **digital collection and exhibit** created as the final project for LIS448 Digital Stewardship at Simmons University.  
 We documented murals created by the **GN Crew**, a Boston-based graffiti and mural artist collective active for over 30 years.
 
-The exhibit title, **“Boricua, Morena,”** comes from a phrase used by rapper [Big Pun](https://en.wikipedia.org/wiki/Big_Pun) to describe unity between African American and Latino communities in hip-hop. We felt this message of cultural collaboration strongly reflects the spirit of the GN Crew’s work in Boston.
+The exhibit title, **“Boricua, Morena”** comes from a phrase used by rapper [Big Pun](https://en.wikipedia.org/wiki/Big_Pun) to describe unity between African American and Latino communities in hip-hop. We felt this message of cultural collaboration strongly reflects the spirit of the GN Crew’s work in Boston.
 
 🔗 View the exhibit:  
 https://44801fa2025.omeka.net/exhibits/show/gn-crew-boston/---boricua--morena----the-art-
@@ -26,7 +26,7 @@ We photographed GN Crew murals across Boston neighborhoods and created individua
 For every item, we applied **consistent Dublin Core metadata fields**, including: 
 
 - Title   
-- Subject (using **LCSH**(Library of Congress Subject Headings))
+- Subject (using **LCSH** (Library of Congress Subject Headings))
 - Description
 - Creator
 - Source
