@@ -23,7 +23,7 @@ https://44801fa2025.omeka.net/exhibits/show/gn-crew-boston/---boricua--morena---
 
 We photographed GN Crew murals across Boston neighborhoods and created individual **digital items** for each artwork in Omeka.
 
-For every item, we applied **consistent Dublin Core metadata fields**, including:
+For every item, we applied **consistent Dublin Core metadata fields**, including: 
 
 - Title   
 - Subject (using **LCSH**(Library of Congress Subject Headings))
