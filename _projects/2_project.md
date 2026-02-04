@@ -1,81 +1,92 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: “Boricua, Morena” : The Art of the GN Crew
+description: LIS448 Digital Stewardship
+img: assets/img/gncrew_cover.jpg
+importance: 1
+category: 2026
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## 🎨 Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project is a **digital collection and exhibit** created as the final project for LIS448 Digital Stewardship at Simmons University.  
+We documented murals created by the **GN Crew**, a Boston-based graffiti and mural artist collective active for over 30 years.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The exhibit title, **“Boricua, Morena,”** comes from a phrase used by rapper [Big Pun](https://en.wikipedia.org/wiki/Big_Pun) to describe unity between African American and Latino communities in hip-hop. We felt this message of cultural collaboration strongly reflects the spirit of the GN Crew’s work in Boston.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+🔗 View the exhibit:  
+https://44801fa2025.omeka.net/exhibits/show/gn-crew-boston/---boricua--morena----the-art-
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
+
+## 🖼 Building the Digital Collection
+
+We photographed GN Crew murals across Boston neighborhoods and created individual **digital items** for each artwork in Omeka.
+
+For every item, we applied **consistent Dublin Core metadata fields**, including:
+
+- Title   
+- Subject (using **LCSH**(Library of Congress Subject Headings))
+- Description
+- Creator
+- Source
+- Date
+- Contributor
+- Rights
+- Relation
+- Language
+- Identifier 
+- Coverage
+
+Using consistent field description rules and controlled subject headings ensured better **searchability, consistency, and interoperability** across the collection.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <img src="/assets/img/gncrew_mural1.png" class="img-fluid rounded z-depth-1">
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <img src="/assets/img/gncrew_mural2.png" class="img-fluid rounded z-depth-1">
+  </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+The main page and a representative artist page of the exhibition
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+To help users experience the murals in context, we also mapped their **geographic locations**, allowing viewers to connect the artworks to specific Boston neighborhoods.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## 🧭 Exhibit Structure
 
-{% endraw %}
+The digital exhibit was designed with a clear, user-friendly structure.
+
+It is organized into **two main sections**:
+
+1. **GN Crew Members**
+2. **Collaborating Artists**
+
+Each section first presents an overview of murals, after which users can **navigate by individual artist**.
+
+Every artist page follows a consistent layout:
+- Artist photo  
+- Short biography  
+- Gallery of artworks  
+
+Clicking an artwork leads to a detailed item page showing images and the full set of **Dublin Core metadata**, providing rich context for interpretation and discovery.
+
+---
+
+## 💡 What This Project Demonstrates
+
+This project highlights:
+
+✔ Application of **metadata standards** (Dublin Core)  
+✔ Use of **controlled vocabularies** for subject access  
+✔ Digital curation using **Omeka**  
+✔ Exhibit design for **public engagement**  
+✔ Integration of **place-based context** through mapping  
+
+---
+
+## 🛠 Tools Used
+`Omeka · Dublin Core · LCSH · Digital Curation · Exhibit Design`
