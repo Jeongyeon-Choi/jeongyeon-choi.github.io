@@ -38,7 +38,7 @@ For every item, we applied **consistent Dublin Core metadata fields**, including
 - Identifier 
 - Coverage
 
-Using consistent field description rules and controlled subject headings ensured better **searchability, consistency, and interoperability** across the collection.
+Using consistent field description rules and controlled subject headings ensured better **searchability, consistency, and interoperability** across the collection. To help users experience the murals in context, we also mapped their **geographic locations**.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
@@ -51,8 +51,6 @@ Using consistent field description rules and controlled subject headings ensured
 <div class="caption">
 The main page and a representative artist page of the exhibition
 </div>
-
-To help users experience the murals in context, we also mapped their **geographic locations**, allowing viewers to connect the artworks to specific Boston neighborhoods.
 
 ---
 
@@ -72,7 +70,7 @@ Every artist page follows a consistent layout:
 - Short biography  
 - Gallery of artworks  
 
-Clicking an artwork leads to a detailed item page showing images and the full set of **Dublin Core metadata**, providing rich context for interpretation and discovery.
+Clicking an artwork leads to a detailed item page showing images and the full set of **Dublin Core metadata**.
 
 ---
 
