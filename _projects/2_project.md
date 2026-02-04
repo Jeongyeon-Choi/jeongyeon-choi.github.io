@@ -4,7 +4,7 @@ title: “Boricua, Morena” : The Art of the GN Crew
 description: LIS448 Digital Stewardship
 img: assets/img/gncrew_cover.jpg
 importance: 1
-category: 2026
+category: 2025
 ---
 
 ## 🎨 Project Overview
