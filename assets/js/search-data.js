@@ -45,7 +45,7 @@ ninja.data = [{
           title: 'Awarded 2025-26 Graduate Student Research Award @ Simmons University',
           description: "",
           section: "News",},{id: "news-awarded-the-outstanding-information-science-student-award-simmons-university",
-          title: 'Awarded the Outstanding Information Science Student Award @ Simmons University.',
+          title: 'Awarded the Outstanding Information Science Student Award @ Simmons University',
           description: "",
           section: "News",},{id: "news-earned-a-master-s-degree-in-library-and-information-science-with-a-concentration-in-information-science-and-technology-simmons-university",
           title: 'Earned a master’s degree in Library and Information Science with a concentration in...',
