@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the Outstanding Information Science Student Award @ Simmons University.
+Awarded the Outstanding Information Science Student Award @ Simmons University
