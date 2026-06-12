@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: "Media and Modeling I"
 description: "Selected visualization and representation works from ARCH 1020"
 img: assets/img/media_modeling_cover.jpg
 importance: 2
 category: 2023
----------------
+---
 
 ## Project Overview
 
