@@ -55,9 +55,9 @@ ninja.data = [{
           description: "LIS2812 Introduction to Data Science",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-media-and-modeling-i",
-          title: 'Media and Modeling I',
-          description: "Selected visualization and representation works from ARCH 1020",
+            },},{id: "projects-spatial-visualization-and-representation",
+          title: 'Spatial Visualization and Representation',
+          description: "ARCH 1020 Media and Modeling I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
