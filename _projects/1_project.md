@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visualizing Road Dust in Seoul
+title: Urban Dust Visualization
 description: LIS2812 Introduction to Data Science
 img: assets/img/seoul_dust_map.jpg
 importance: 1
