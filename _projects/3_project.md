@@ -24,7 +24,7 @@ Inspired by Richard Paul Lohse’s <i>Vier gleiche Gruppen / Four Equal Groups</
 </div>
 
 <div class="caption">
-Assignment 1C — Site plan abstraction of Lohse’s <i>Vier gleiche Gruppen / Four Equal Groups</i> (1965)
+Site plan abstraction of Lohse’s <i>Vier gleiche Gruppen / Four Equal Groups</i> (1965)
 </div>
 
 ---
@@ -40,7 +40,7 @@ Building from the site plan abstraction developed in Assignment 1C, this project
 </div>
 
 <div class="caption">
-Assignment 1D — Inhabitable relief surface elevation developed from the site abstraction of Lohse’s <i>Vier gleiche Gruppen / Four Equal Groups</i>
+Inhabitable relief surface elevation developed from the site abstraction of Lohse’s <i>Vier gleiche Gruppen / Four Equal Groups</i>
 </div>
 
 ---
