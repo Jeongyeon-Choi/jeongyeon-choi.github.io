@@ -5,6 +5,7 @@ description: "LIS448 Digital Stewardship"
 img: assets/img/gncrew_cover.jpg
 importance: 1
 category: 2025
+published: false
 ---
 
 ## 🎨 Project Overview
