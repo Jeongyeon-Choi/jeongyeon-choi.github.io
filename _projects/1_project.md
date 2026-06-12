@@ -7,7 +7,7 @@ importance: 1
 category: 2023
 ---
 
-## 🌫️ Project Overview
+## Project Overview
 
 This project visualizes **road-resuspended dust (PM10)** levels across Seoul.  
 Road dust is a major source of urban particulate pollution, and unlike many pollutants, it is **re-suspended from road surfaces by vehicle movement**, making it difficult to control. Understanding where and when high concentrations occur can help inform more effective mitigation strategies.
@@ -16,7 +16,7 @@ Using open environmental data, I mapped regional differences in dust levels and 
 
 ---
 
-## 📊 Data
+## Data
 
 The dataset comes from the **Korea Environment Corporation**, which measures road dust using a mobile monitoring system (TRAKER). I used monthly data from **January–March 2023** in Seoul.
 
@@ -31,7 +31,7 @@ The dataset comes from the **Korea Environment Corporation**, which measures roa
 
 ---
 
-## 🛠 Methods
+## Methods
 
 I used Python for data processing and visualization:
 
@@ -46,7 +46,7 @@ On the map, each road segment is represented by a colored circle showing polluti
 
 ---
 
-## 🗺 Road Dust Map
+## Road Dust Map
 
 To understand spatial and temporal patterns of road-resuspended dust, I created visualizations for each month.
 
@@ -69,7 +69,7 @@ Across the three months, most areas fell into the **“Very Good”** pollution 
 
 ---
 
-## 📈 Environmental Factors
+## Environmental Factors
 
 I examined whether road dust pollution levels were associated with **temperature** and **humidity** by visualizing their relationships for each month.
 
@@ -110,7 +110,7 @@ Across all three months, no clear or consistent correlation emerged. This sugges
 
 ---
 
-## 💡 Takeaways
+## Takeaways
 
 - Road dust levels vary by **location and month**, even within the same district  
 - Most observed values were in the **lower pollution categories**, but local spikes exist  
@@ -118,5 +118,5 @@ Across all three months, no clear or consistent correlation emerged. This sugges
 
 ---
 
-## 🔗 Tools Used
+## Tools Used
 `Python · Pandas · Folium · Geopy · Matplotlib`
