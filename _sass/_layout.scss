@@ -38,6 +38,11 @@ body.sticky-bottom-footer {
   }
 }
 
+.card img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
