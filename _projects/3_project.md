@@ -9,7 +9,7 @@ category: 2023
 
 ## Project Overview
 
-This page presents selected works from **ARCH 1020: Media and Modeling I** at the Georgia Institute of Technology. The following projects primarily reflect my interest in **visual communication, spatial representation, and information organization**. Rather than focusing solely on architectural construction, these works investigate how visual conventions guide perception, hierarchy, navigation, and interpretation across two-dimensional and three-dimensional media.
+This page presents selected works from **ARCH 1020: Media and Modeling I** at the Georgia Institute of Technology. The following projects primarily reflect my (past) interest in **visual communication, spatial representation, and information organization**. Rather than focusing solely on architectural construction, these works investigate how visual conventions guide perception, hierarchy, navigation, and interpretation across two-dimensional and three-dimensional media.
 
 ---
 
