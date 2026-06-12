@@ -50,8 +50,8 @@ ninja.data = [{
           section: "News",},{id: "news-earned-a-master-s-degree-in-library-and-information-science-with-a-concentration-in-information-science-and-technology-simmons-university",
           title: 'Earned a master’s degree in Library and Information Science with a concentration in...',
           description: "",
-          section: "News",},{id: "projects-visualizing-road-dust-in-seoul",
-          title: 'Visualizing Road Dust in Seoul',
+          section: "News",},{id: "projects-urban-dust-visualization",
+          title: 'Urban Dust Visualization',
           description: "LIS2812 Introduction to Data Science",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
