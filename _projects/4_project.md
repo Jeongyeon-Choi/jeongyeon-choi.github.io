@@ -7,7 +7,7 @@ img: assets/img/mindcafe_cover.jpg
 importance: 1
 category: 2024
 published: true
----------------
+---
 
 ## Overview
 
