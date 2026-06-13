@@ -11,7 +11,7 @@ published: true
 
 ## Overview
 
-This project investigates the information behavior of baseball fans through the lens of **Serious Leisure Theory** (Stebbins, 1982). Focusing on baseball fandom as a serious leisure activity, the study explores how different levels of leisure engagement shape information activities. The project connects leisure studies with information behavior research by showing how fandom can become an information-rich activity structured by habits, platforms, social interaction, and repeated information seeking.
+This project investigates the information behavior of baseball fans through the lens of **Serious Leisure Theory** (Stebbins, 1982). Focusing on baseball fandom as a serious leisure activity, the study explores how different levels of leisure engagement shape information activities. The project connects leisure studies with information behavior research by showing how fandom can become an information-rich activity. The project was designed as an opportunity to practice applying as many statistical methods learned in class as possible to a personally interesting research topic.
 
 ---
 
@@ -128,7 +128,7 @@ Regression coefficient visualization
 ---
 ## Limitations 
 
-Despite these contributions, this study has several limitations. First, because data were collected from a limited anonymous online community, the sample may have been concentrated within a specific age group, making it difficult to generalize the findings. 
+First, because data were collected from a limited anonymous online community, the sample may have been concentrated within a specific age group, making it difficult to generalize the findings. 
 
 Second, this study did not consider other factors that may influence information activities, such as individuals’ digital literacy or information accessibility. Future research need to incorporate qualitative approaches to gain a deeper understanding of baseball enthusiasts’ information behaviors and include additional variables to improve explanatory power.
 
