@@ -100,13 +100,17 @@ Simple linear regression showed that serious leisure score had a positive effect
 The regression model showed the strongest explanatory power for **total information activity** (R² = 0.54), which was calculated by summing the scores of the four information activities.
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="/assets/img/baseball_regression_total.png" class="img-fluid rounded z-depth-1" alt="Regression analysis">
-  </div>
-</div>
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
 
-<div class="caption">
-Regression analysis showing the relationship between serious leisure score and total information activity.
+    <img src="/assets/img/baseball_regression_total.png"
+         class="img-fluid rounded z-depth-1"
+         alt="Regression analysis">
+
+    <div class="caption mt-2">
+      Regression analysis showing the relationship between serious leisure score and total information activity.
+    </div>
+
+  </div>
 </div>
 
 ---
@@ -118,13 +122,17 @@ Multiple regression analysis was conducted to examine which serious leisure char
 Among the six serious leisure characteristics, **significant effort** (coef = 1.57, p < 0.001) had the strongest positive effect on overall information activities. The analysis also showed that different serious leisure characteristics may influence different types of information behavior, which indicates that fandom-related information practices are shaped by multiple psychological and behavioral dimensions.
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="/assets/img/baseball_coefficients.png" class="img-fluid rounded z-depth-1" alt="Regression coefficient visualization">
-  </div>
-</div>
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    
+    <img src="/assets/img/baseball_coefficients.png"
+         class="img-fluid rounded z-depth-1"
+         alt="Regression coefficient visualization">
 
-<div class="caption">
-Regression coefficient visualization.
+    <div class="caption mt-2">
+      Regression coefficient visualization.
+    </div>
+
+  </div>
 </div>
 
 ---
