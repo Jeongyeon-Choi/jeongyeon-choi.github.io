@@ -120,7 +120,7 @@ Keyword co-occurrence networks from the Employment/Career board and Mental Healt
 
 The second visualization presents **ego network analyses** centered on the keywords *Depression* and *Stress*. These networks isolate relationships surrounding specific emotional concepts to examine how associated terms cluster around them.
 
-The *Depression* network showed strong connections with keywords related to anxiety, suicide, school life, friendships, and treatment, suggesting that depressive discourse frequently overlaps with interpersonal and institutional pressures. Meanwhile, the *Stress* network demonstrated broader and denser interconnections between school, consultation, anxiety, and interpersonal relationships. One interesting takeaway from qualitative content analysis was that stress often exacerbates to depression and suicidal ideation.
+The **depression network** showed strong connections with keywords related to anxiety, suicide, school life, friendships, and treatment, suggesting that depressive discourse frequently overlaps with interpersonal and institutional pressures. Meanwhile, the **stress network** demonstrated broader and denser interconnections between school, consultation, anxiety, and interpersonal relationships. One interesting takeaway from qualitative content analysis was that stress often exacerbates to depression and suicidal ideation.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
