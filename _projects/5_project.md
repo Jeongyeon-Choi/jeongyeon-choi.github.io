@@ -11,7 +11,7 @@ published: true
 
 ## Overview
 
-This project investigates the information behavior of baseball fans through the lens of **Serious Leisure Theory** (Stebbins, 1982). Focusing on baseball fandom as a serious leisure activity, the study explores how different levels of leisure engagement shape information activities. The project connects leisure studies with information behavior research by showing how fandom can become an information-rich activity. The project was designed as an opportunity to practice applying as many statistical methods learned in class as possible to a personally interesting research topic.
+This project investigates the **information behavior of baseball enthusiasts** through the lens of **Serious Leisure Theory** (Stebbins, 1982). Focusing on baseball fandom as a serious leisure activity, the study explores how different levels of leisure engagement shape information activities. The project connects leisure studies with information behavior research by showing how fandom can become an information-rich activity. The project was designed as an opportunity to practice applying as many statistical methods learned in class as possible to a personally interesting research topic.
 
 ---
 
@@ -49,7 +49,7 @@ Research framework
 
 ---
 
-## Data and Survey Design
+## Data Collection
 
 Data were collected through an online survey using Google Forms with a 5-point Likert scale. A total of **52 valid responses** were collected. Most survey participants were female (63.5%) and were between the ages of 20 and 24 (75%), while only 5.7% were over the age of 30. Additionally, 61.5% of participants reported having watched baseball games for more than seven years. The internal consistency of the serious leisure scale was high, with **Cronbach’s alpha = 0.86**. 
 
@@ -70,7 +70,7 @@ The study found that baseball fans’ information needs changed depending on the
 
 The study examined four types of information activities: search, browsing, monitoring, and sharing.
 
-Across all participants, monitoring (Mean=4.21, SD=1.09) was the most active information behavior, followed by search (Mean=4.04, SD=0.97), browsing (Mean=3.92, SD=1.17), and sharing (Mean=3.84, SD=1.16). The high serious leisure group scored higher than the low serious leisure group in all four information activities.
+Across all participants, **monitoring** (Mean=4.21, SD=1.09) was the most active information behavior, followed by search (Mean=4.04, SD=0.97), browsing (Mean=3.92, SD=1.17), and sharing (Mean=3.84, SD=1.16). The high serious leisure group scored higher than the low serious leisure group in all four information activities.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
