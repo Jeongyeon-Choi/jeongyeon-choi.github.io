@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Spatial Visualization"
-description: "ARCH 1020 Media and Modeling I"
+description: "ARCH1020 Media and Modeling I"
 img: assets/img/media_modeling_cover.jpg
 importance: 2
 category: 2023
