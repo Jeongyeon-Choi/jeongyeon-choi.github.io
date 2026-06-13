@@ -70,7 +70,7 @@ The study found that baseball fans’ information needs changed depending on the
 
 The study examined four types of information activities: search, browsing, monitoring, and sharing.
 
-Across all participants, monitoring was the most active information behavior, followed by search, browsing, and sharing. The high serious leisure group scored higher than the low serious leisure group in all four information activities.
+Across all participants, monitoring (Mean=4.21, SD=1.09) was the most active information behavior, followed by search (Mean=4.04, SD=0.97), browsing (Mean=3.92, SD=1.17), and sharing (Mean=3.84, SD=1.16). The high serious leisure group scored higher than the low serious leisure group in all four information activities.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
