@@ -122,7 +122,7 @@ Among the six serious leisure characteristics, **significant effort** (coef = 1.
 </div>
 
 <div class="caption">
-Regression coefficient visualization
+Regression coefficient visualization.
 </div>
 
 ---
