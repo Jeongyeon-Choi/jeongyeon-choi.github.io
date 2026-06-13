@@ -57,7 +57,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-spatial-visualization",
           title: 'Spatial Visualization',
-          description: "ARCH 1020 Media and Modeling I",
+          description: "ARCH1020 Media and Modeling I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
