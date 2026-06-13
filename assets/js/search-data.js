@@ -60,9 +60,9 @@ ninja.data = [{
           description: "ARCH1020 Media and Modeling I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-mental-health-discourse-analysis",
+          title: 'Mental Health Discourse Analysis',
+          description: "LIS3813 Introduction to Text Processing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
