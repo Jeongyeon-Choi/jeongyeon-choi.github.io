@@ -61,7 +61,9 @@ Data were collected through an online survey using Google Forms with a 5-point L
 The study found that baseball fans’ information needs changed depending on the game context.
 
 **Before games**, participants mainly searched for schedule information (28.40%), starting pitchers (23.45%), weather (18.52%), player statistics (10.49%), and team records (9.88%). 
+
 **During games**, they focused on real-time scores (35.34%), player substitutions (25.00%), live reactions (18.10%), and commentary (17.24%). 
+
 **After games**, they looked for highlights (26.62%), game records (24.46%), fan community responses (18.71%), player interviews (17.27%), and information about upcoming games (12.23%).
 
 ---
@@ -138,9 +140,7 @@ Finally, this study lacks an examination of how various personal and social bene
 ## References
 
 Hektor, A. (2001). *What’s the use: Internet and information behavior in everyday life*. Linköping University.
-
 Stebbins, R. A. (1982). Serious leisure: A conceptual statement. *Pacific Sociological Review, 25*(2), 251–272.
-
 Stebbins, R. A. (2001). *New directions in the theory and research of serious leisure*. Edwin Mellen Press.
 
 
