@@ -140,7 +140,9 @@ Finally, this study lacks an examination of how various personal and social bene
 ## References
 
 Hektor, A. (2001). *What’s the use: Internet and information behavior in everyday life*. Linköping University.
+
 Stebbins, R. A. (1982). Serious leisure: A conceptual statement. *Pacific Sociological Review, 25*(2), 251–272.
+
 Stebbins, R. A. (2001). *New directions in the theory and research of serious leisure*. Edwin Mellen Press.
 
 
