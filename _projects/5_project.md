@@ -102,7 +102,7 @@ The regression model showed the strongest explanatory power for **total informat
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
 
-    <img src="/assets/img/baseball_coefficients.jpg"
+    <img src="/assets/img/baseball_regression_total.png"
          class="img-fluid rounded z-depth-1"
          alt="Regression analysis">
 
