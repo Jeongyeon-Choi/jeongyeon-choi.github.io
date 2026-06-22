@@ -188,8 +188,6 @@ The moderating effect of emotional polarity further suggests that keyword-based 
 
 ## Contributions
 
-This project makes the following contributions:
-
 * Developed a mental health app quality framework by synthesizing MARS, MAUQ, PSSUQ, and SUS.
 * Analyzed 46,216 Google Play Store reviews from six mental health applications.
 * Used TF-IDF-based text mining to identify quality-related word stems.
