@@ -52,6 +52,7 @@ The dataset consists of Google Play Store reviews collected from six mental heal
 | Youper: AI Therapy | br.com.youper | 10,000 |
 | Wysa: Anxiety, therapy chatbot | bot.touchkin | 10,000 |
 
+
 In total, **46,216 user reviews** were collected. After the quality-factor labeling process, **33,923 valid labeled reviews** were used for the final analysis.
 
 ---
@@ -74,12 +75,6 @@ Based on these instruments, app quality was organized into four higher-level cat
 | Information | Accuracy, Visual Explanation, Credibility, Structure |
 | Engagement | Design, Interactivity, Customization, Entertainment |
 
-<img src="/assets/img/survey_items_table.png"
-     class="img-fluid rounded z-depth-1">
-
-<div class="caption">
-Representative survey items used to construct the app quality framework.
-</div>
 ---
 
 ## Methodology
@@ -111,19 +106,14 @@ Examples of mapped word stems include:
 | Credibility | trust, evidence, expert, source, reliable |
 | Entertainment | fun, enjoy, game, interesting, love |
 
+
 ### 3. Quality Factor Labeling
 
 Each review was labeled according to whether it contained word stems associated with specific app quality factors. A single review could be assigned to multiple quality factors if it included several relevant terms. For example, a review mentioning both “easy to use” and “fun” could be labeled as both "Learnability" and "Entertainment".
 
 ### 4. Sentiment Analysis
 
-VADER sentiment analysis was applied to calculate the emotional polarity of each review. This project used **effective polarity**, defined as the difference between positive and negative sentiment scores.
-
-```text
-Effective Polarity = Positive Sentiment Score - Negative Sentiment Score
-````
-
-Effective polarity was used as a moderating variable to examine whether emotional context changes the effect of app quality factors on user ratings.
+VADER sentiment analysis was applied to calculate the emotional polarity of each review. This project used **effective polarity**, defined as the difference between positive and negative sentiment scores. Effective polarity was used as a moderating variable to examine whether emotional context changes the effect of app quality factors on user ratings.
 
 ### 5. Linear Regression
 
@@ -152,11 +142,8 @@ Regression coefficients of higher-level app quality factors.
 | Usability      |       0.192 | Positive association with ratings        |
 | Engagement     |       0.266 | Positive association with ratings        |
 
-The results show that **Functionality** and **Information** were negatively associated with user ratings, while **Usability** and **Engagement** were positively associated with ratings.
 
-Functionality showed the strongest negative coefficient. This suggests that users often mention functionality when they are dissatisfied with app performance, missing features, crashes, slow responses, or technical problems.
-
-By contrast, Engagement showed the strongest positive coefficient among the higher-level factors. This indicates that users tend to rate apps more positively when they describe them as enjoyable, interactive, visually appealing, or engaging.
+The results show that **Functionality** and **Information** were negatively associated with user ratings, while **Usability** and **Engagement** were positively associated with ratings. Functionality showed the strongest negative coefficient. This suggests that users often mention functionality when they are dissatisfied with app performance, missing features, crashes, slow responses, or technical problems. By contrast, Engagement showed the strongest positive coefficient among the higher-level factors. This indicates that users tend to rate apps more positively when they describe them as enjoyable, interactive, visually appealing, or engaging.
 
 ---
 
@@ -172,31 +159,7 @@ By contrast, Engagement showed the strongest positive coefficient among the high
 Regression coefficients of detailed app quality factors.
 </div>
 
-| Detailed Factor    | Coefficient | Significance |
-| ------------------ | ----------: | ------------ |
-| Learnability       |     -0.0498 | *            |
-| Navigation         |     -0.5674 | ***          |
-| Error Recovery     |      0.4725 | ***          |
-| Feedback           |     -0.3833 | ***          |
-| Completeness       |     -0.5563 | ***          |
-| Stability          |     -0.2623 | ***          |
-| Responsiveness     |     -0.2914 | ***          |
-| Integration        |     -0.3567 | ***          |
-| Accuracy           |     -0.0270 | NS           |
-| Visual Explanation |     -0.0743 | NS           |
-| Credibility        |     -0.5207 | ***          |
-| Structure          |     -0.3320 | ***          |
-| Design             |     -0.0423 | NS           |
-| Interactivity      |      0.2304 | ***          |
-| Customization      |     -0.3119 | ***          |
-| Entertainment      |      0.5524 | ***          |
-***p < .001; **p < .01; *p < .05; NS: Not Significant (p ≥ .05)
-
-Among the detailed factors, **Navigation** and **Completeness** showed the strongest negative associations with ratings. This suggests that users are likely to give lower ratings when they mention difficulty navigating the app or when they feel that important features are missing.
-
-**Credibility** also showed a strong negative relationship with ratings. This may reflect user concerns about whether app content is trustworthy, evidence-based, or professionally reliable.
-
-On the other hand, **Entertainment** showed the strongest positive coefficient. This indicates that users respond positively when mental health apps feel enjoyable, interesting, or emotionally engaging. **Interactivity** was also positively associated with ratings, suggesting that users value apps that respond to their input and provide interactive experiences.
+Among the detailed factors, **Navigation** and **Completeness** showed the strongest negative associations with ratings. This suggests that users are likely to give lower ratings when they mention difficulty navigating the app or when they feel that important features are missing. **Credibility** also showed a strong negative relationship with ratings. This may reflect user concerns about whether app content is trustworthy, evidence-based, or professionally reliable. On the other hand, **Entertainment** showed the strongest positive coefficient. This indicates that users respond positively when mental health apps feel enjoyable, interesting, or emotionally engaging. **Interactivity** was also positively associated with ratings, suggesting that users value apps that respond to their input and provide interactive experiences.
 
 ---
 
@@ -212,29 +175,7 @@ On the other hand, **Entertainment** showed the strongest positive coefficient. 
 Interaction effects between detailed app quality factors and effective polarity.
 </div>
 
-| Interaction Term              | Coefficient | Significance |
-| ----------------------------- | ----------: | ------------ |
-| Learnability × Polarity       |      0.7354 | ***          |
-| Navigation × Polarity         |      2.0122 | ***          |
-| Error Recovery × Polarity     |     -0.7477 | ***          |
-| Feedback × Polarity           |      1.5785 | ***          |
-| Completeness × Polarity       |      1.9359 | ***          |
-| Stability × Polarity          |      1.0029 | ***          |
-| Responsiveness × Polarity     |      1.6428 | ***          |
-| Integration × Polarity        |      1.9246 | ***          |
-| Accuracy × Polarity           |      1.0012 | ***          |
-| Visual Explanation × Polarity |      0.8071 | **           |
-| Credibility × Polarity        |      1.8278 | ***          |
-| Structure × Polarity          |      1.1756 | ***          |
-| Design × Polarity             |      0.3008 | *            |
-| Interactivity × Polarity      |      0.0565 | NS           |
-| Customization × Polarity      |      1.5617 | ***          |
-| Entertainment × Polarity      |     -1.1298 | ***          |
-***p < .001; **p < .01; *p < .05; NS: Not Significant (p ≥ .05)
-
-The interaction analysis shows that emotional polarity plays an important moderating role. **Navigation × Polarity** and **Completeness × Polarity** showed the strongest positive interaction effects.
-
-This means that although navigation and completeness were negatively associated with ratings when considered alone, they became strong positive satisfaction factors when mentioned in a positive emotional context. For example, users may complain when navigation is confusing or when features are incomplete, but they may also give high ratings when they describe navigation as smooth or features as complete. This finding shows that the meaning of a quality factor depends on the emotional context in which it appears.
+The interaction analysis shows that emotional polarity plays an important moderating role. **Navigation × Polarity** and **Completeness × Polarity** showed the strongest positive interaction effects. This means that although navigation and completeness were negatively associated with ratings when considered alone, they became strong positive satisfaction factors when mentioned in a positive emotional context. For example, users may complain when navigation is confusing or when features are incomplete, but they may also give high ratings when they describe navigation as smooth or features as complete. This finding shows that the meaning of a quality factor depends on the emotional context in which it appears.
 
 ---
 
