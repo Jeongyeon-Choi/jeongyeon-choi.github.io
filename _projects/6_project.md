@@ -51,8 +51,6 @@ The dataset consists of Google Play Store reviews collected from six mental heal
 | BetterHelp - Therapy | com.betterhelp | 10,000 |
 | Youper: AI Therapy | br.com.youper | 10,000 |
 | Wysa: Anxiety, therapy chatbot | bot.touchkin | 10,000 |
-<br>
-In total, **46,216 user reviews** were collected. After the quality-factor labeling process, **33,923 valid labeled reviews** were used for the final analysis.
 
 ---
 
