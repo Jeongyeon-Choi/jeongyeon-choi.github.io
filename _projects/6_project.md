@@ -203,15 +203,5 @@ This project makes the following contributions:
 
 ---
 
-## Limitations
-
-First, TF-IDF is effective for identifying important words, but it does not fully capture sentence-level context or deeper semantic meaning. The same word may have different meanings depending on how it is used.
-
-Second, the dataset is limited to English-language Google Play Store reviews. Therefore, the findings may not fully represent users from different linguistic or cultural backgrounds.
-
-Third, user ratings are influenced by many factors beyond app quality, such as subscription cost, privacy concerns, therapy quality, personal expectations, and individual mental health needs. These factors were not fully captured in the regression models.
-
----
-
 ## Tools Used
 `Python · Pandas · Scikit-learn · Statsmodels · TF-IDF · VADER · Text Mining · Linear Regression · User Review Analysis `
