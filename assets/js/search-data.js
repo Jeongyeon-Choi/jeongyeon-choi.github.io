@@ -70,9 +70,9 @@ ninja.data = [{
           description: "LIS7000 Research Methods in Library and Information Science",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-user-experience-in-mental-health-applications",
+          title: 'User Experience in Mental Health Applications',
+          description: "LIS7010 User Interface Design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
