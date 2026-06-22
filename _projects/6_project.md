@@ -51,8 +51,7 @@ The dataset consists of Google Play Store reviews collected from six mental heal
 | BetterHelp - Therapy | com.betterhelp | 10,000 |
 | Youper: AI Therapy | br.com.youper | 10,000 |
 | Wysa: Anxiety, therapy chatbot | bot.touchkin | 10,000 |
-
-
+<br>
 In total, **46,216 user reviews** were collected. After the quality-factor labeling process, **33,923 valid labeled reviews** were used for the final analysis.
 
 ---
@@ -91,7 +90,7 @@ The review texts were cleaned and standardized before analysis. The preprocessin
 - Document-term matrix construction
 
 This process converted unstructured review text into a structured format for quantitative analysis.
-
+<br>
 ### 2. TF-IDF Keyword Extraction
 
 TF-IDF was used to identify important word stems in the review corpus. Words with a maximum TF-IDF value of **0.7 or higher** were selected and then mapped to the app quality framework.
@@ -105,16 +104,15 @@ Examples of mapped word stems include:
 | Stability | crash, bug, freeze, lag, load |
 | Credibility | trust, evidence, expert, source, reliable |
 | Entertainment | fun, enjoy, game, interesting, love |
-
-
+<br>
 ### 3. Quality Factor Labeling
 
 Each review was labeled according to whether it contained word stems associated with specific app quality factors. A single review could be assigned to multiple quality factors if it included several relevant terms. For example, a review mentioning both “easy to use” and “fun” could be labeled as both "Learnability" and "Entertainment".
-
+<br>
 ### 4. Sentiment Analysis
 
 VADER sentiment analysis was applied to calculate the emotional polarity of each review. This project used **effective polarity**, defined as the difference between positive and negative sentiment scores. Effective polarity was used as a moderating variable to examine whether emotional context changes the effect of app quality factors on user ratings.
-
+<br>
 ### 5. Linear Regression
 
 Linear regression models were used to examine the relationship between app quality factors and user ratings. The dependent variable was the review rating, and the independent variables were app quality factor labels. Interaction terms between detailed quality factors and effective polarity were also included to examine whether emotional tone moderates the relationship between app quality and user experience.
@@ -141,9 +139,8 @@ Regression coefficients of higher-level app quality factors.
 | Information    |      -0.441 | Negative association with ratings        |
 | Usability      |       0.192 | Positive association with ratings        |
 | Engagement     |       0.266 | Positive association with ratings        |
-
-
-The results show that **Functionality** and **Information** were negatively associated with user ratings, while **Usability** and **Engagement** were positively associated with ratings. Functionality showed the strongest negative coefficient. This suggests that users often mention functionality when they are dissatisfied with app performance, missing features, crashes, slow responses, or technical problems. By contrast, Engagement showed the strongest positive coefficient among the higher-level factors. This indicates that users tend to rate apps more positively when they describe them as enjoyable, interactive, visually appealing, or engaging.
+<br>
+The results show that **Functionality** and **Information** were negatively associated with user ratings, while **Usability** and **Engagement** were positively associated with ratings. Functionality showed the strongest negative coefficient. This suggests that users often mention functionality when they are dissatisfied with app performance, missing features, crashes, slow responses, or technical problems. By contrast, Engagement showed the strongest positive coefficient among the higher-level factors, which indicates that users tend to rate apps more positively when they describe them as enjoyable, interactive, visually appealing, or engaging.
 
 ---
 
@@ -159,7 +156,7 @@ The results show that **Functionality** and **Information** were negatively asso
 Regression coefficients of detailed app quality factors.
 </div>
 
-Among the detailed factors, **Navigation** and **Completeness** showed the strongest negative associations with ratings. This suggests that users are likely to give lower ratings when they mention difficulty navigating the app or when they feel that important features are missing. **Credibility** also showed a strong negative relationship with ratings. This may reflect user concerns about whether app content is trustworthy, evidence-based, or professionally reliable. On the other hand, **Entertainment** showed the strongest positive coefficient. This indicates that users respond positively when mental health apps feel enjoyable, interesting, or emotionally engaging. **Interactivity** was also positively associated with ratings, suggesting that users value apps that respond to their input and provide interactive experiences.
+Among the detailed factors, **Navigation** and **Completeness** showed the strongest negative associations with ratings. This suggests that users are likely to give lower ratings when they mention difficulty navigating the app or when they feel that important features are missing. **Credibility** also showed a strong negative relationship with ratings. This may reflect user concerns about whether app content is trustworthy, evidence-based, or professionally reliable. On the other hand, **Entertainment** and **Interactivity** was also positively associated with ratings, which suggestes that users value apps that respond to their input and provide interactive and enjoyable experiences.
 
 ---
 
