@@ -5,6 +5,7 @@ description: LIS2812 Introduction to Data Science
 img: assets/img/seoul_dust_map.jpg
 importance: 1
 category: 2023
+published: false
 ---
 
 ## Project Overview
