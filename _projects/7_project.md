@@ -5,7 +5,7 @@ description: "LIS3813 Introduction to Text Processing"
 img: assets/img/mindcafe_cover.jpg
 importance: 1
 category: 2024
-published: false
+published: true
 ---
 
 ## Overview
