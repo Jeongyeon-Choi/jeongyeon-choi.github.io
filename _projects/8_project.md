@@ -44,8 +44,8 @@ Research framework
          class="img-fluid rounded z-depth-1"
          alt="Regression coefficient visualization.">
   </div>
+<div class="caption">
+Regression coefficient visualization
 </div>
-
-*Comparison of searching, browsing, monitoring, and sharing between serious leisure groups.*
 
 **Tools:** Google Forms · Python · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib
