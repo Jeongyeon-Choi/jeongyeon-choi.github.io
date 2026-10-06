@@ -65,9 +65,9 @@ ninja.data = [{
           description: "LIS3813 Introduction to Text Processing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-information-behavior-in-serious-leisure",
+          title: 'Information Behavior in Serious Leisure',
+          description: "LIS7000 Research Methods in Library and Information Science",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
