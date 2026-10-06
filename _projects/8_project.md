@@ -42,10 +42,12 @@ Research framework
   <div class="col-sm-10 mt-3 mt-md-0">
     <img src="/assets/img/baseball_coefficients.jpg"
          class="img-fluid rounded z-depth-1"
-         alt="Regression coefficient visualization.">
+         alt="Regression coefficient visualization">
   </div>
+</div>
+
 <div class="caption">
-Regression coefficient visualization
+  Regression coefficient visualization
 </div>
 
 **Tools:** Google Forms · Python · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib
