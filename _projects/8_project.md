@@ -1,81 +1,51 @@
 ---
+
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: "Information Behavior in Serious Leisure"
+description: "LIS7000 Research Methods in Library and Information Science"
+img: "assets/img/serious_leisure_cover.png"
 importance: 2
-category: work
-giscus_comments: true
+category: "2024"
+published: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Examined how **serious leisure engagement relates to baseball fans’ information behavior**, using an online survey of **52 participants**. The study drew on Serious Leisure Theory by sociologist Robert Stebbins and information activity framework.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Methods:** Survey Research · Reliability Analysis · Independent t-tests · Simple & Multiple Linear Regression
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Serious Leisure Characteristics
+* **Perseverance**: The willingness to continue participating in the activity despite challenges, failures, or difficulties.
+* **Career**: The long-term progression of participation through stages such as beginning, development, establishment, maintenance, and decline.
+* **Significant Effort**: The investment of substantial time, knowledge, training, or skill development related to the activity.
+* **Durable Benefits**: The lasting personal and social rewards gained through participation, such as self-development, achievement, and social connection.
+* **Identity**: A strong sense of self-definition and personal attachment formed through participation in the activity.
+* **Unique Ethos**: The shared culture, values, norms, language, and social practices that emerge within the participant community.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="/assets/img/serious leisure framework.png" class="img-fluid rounded z-depth-1" alt="Research framework">
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Research framework
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Key Findings
 
-{% raw %}
+- **Higher engagement, greater information activity:** Fans with higher serious leisure scores reported significantly more searching, browsing, monitoring, and sharing.
+- **Effort matters:** Among the six serious leisure characteristics, **significant effort** showed the strongest positive association with overall information activity (b = 1.57, p < .001).
 
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="/assets/img/baseball_coefficients.jpg"
+         class="img-fluid rounded z-depth-1"
+         alt="Regression coefficient visualization.">
   </div>
 </div>
-```
 
-{% endraw %}
+*Comparison of searching, browsing, monitoring, and sharing between serious leisure groups.*
+
+**Tools:** Google Forms · Python · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib
