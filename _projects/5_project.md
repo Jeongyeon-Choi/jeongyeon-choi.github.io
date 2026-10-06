@@ -6,7 +6,7 @@ description: "LIS7000 Research Methods in Library and Information Science"
 img: "assets/img/serious_leisure_cover.png"
 importance: 2
 category: "2024"
-published: true
+published: false
 ---
 
 ## Overview
