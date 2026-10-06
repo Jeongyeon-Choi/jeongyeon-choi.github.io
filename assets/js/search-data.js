@@ -55,11 +55,6 @@ ninja.data = [{
           description: "ARCH1020 Media and Modeling I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-information-behavior-in-serious-leisure",
-          title: 'Information Behavior in Serious Leisure',
-          description: "LIS7000 Research Methods in Library and Information Science",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
             },},{id: "projects-user-experience-in-mental-health-applications",
           title: 'User Experience in Mental Health Applications',
           description: "LIS7010 User Interface Design",
