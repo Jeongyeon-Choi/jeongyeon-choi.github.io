@@ -1,81 +1,58 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: "Mental Health Discourse Analysis"
+description: "LIS3813 Introduction to Text Processing"
+img: assets/img/mindcafe_cover.jpg
 importance: 1
-category: work
-related_publications: true
+category: 2024
+published: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Analyzed approximately **15,000 posts** from *MindCafe*, a Korean online mental health community, to explore how academic, career, and interpersonal concerns differ between teenagers and adults.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Methods:** Temporal Analysis · Topic Modeling (LDA) · Social Network Analysis · Word Cloud Visualization
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Key Findings
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Age-group differences:** Teenagers frequently discussed studies, friendships, and parents, while adults emphasized employment, stress, and depression.
+- **Temporal patterns:** Employment- and school-related discussions peaked around recruitment seasons, examinations, and semester transitions.
+- **Social network analysis:** Keyword co-occurrence networks highlighted study and exam clusters in the Employment/Career board and links among depression, family, and interpersonal relationships in the Mental Health board. Ego networks further explored terms associated with depression and stress.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="/assets/img/mindcafe_ego.png" class="img-fluid rounded z-depth-1">
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Ego network analysis centered on the keywords <i>Depression</i> and <i>Stress</i>.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Topic Modeling (LDA) Results
 
-{% raw %}
+For the **Employment/Career board**, the identified topics included:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+1. Pre-university stress — study, school, parents, exams
+2. University students’ academic and career worries — study, career, job, graduation
+3. Anxiety and lethargy — anxiety, mood, depression
+4. Job preparation stress — job, interview, qualifications
+5. Family relations and conflicts — parents, family, counseling
+6. Workplace stress — job, company, resignation, workload
 
-{% endraw %}
+For the **Mental Health board**, the identified topics included:
+
+1. Interpersonal relationships — friends, emotions, personality
+2. Depression and emotional regulation — depression, self-harm, suicidal thoughts
+3. Family and school life — parents, school, family conflicts
+4. Anxiety and stress — anxiety, stress, trauma
+5. Mental health counseling — counseling, psychiatry, treatment
+6. Workplace stress — workplace, job, career
+7. Psychiatric care and depression treatment — depression, treatment, diagnosis
+8. Academic stress — study, school, exams
+9. Life and marriage concerns — marriage, life, existential worries
+
+
+
+**Tools:** Python · BeautifulSoup · Selenium · Pandas · NLTK · pyLDAvis · WordCloud
