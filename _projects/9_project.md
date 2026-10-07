@@ -45,6 +45,7 @@ Based on these instruments, app quality was organized into four higher-level cat
 | Information | Accuracy, Visual Explanation, Credibility, Structure |
 | Engagement | Design, Interactivity, Customization, Entertainment |
 
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     <img src="/assets/img/mhapp_research framework.png" class="img-fluid rounded z-depth-1" alt="Research framework for app quality and user experience">
