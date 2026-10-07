@@ -55,11 +55,6 @@ ninja.data = [{
           description: "ARCH1020 Media and Modeling I",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-user-experience-in-mental-health-applications",
-          title: 'User Experience in Mental Health Applications',
-          description: "LIS7010 User Interface Design",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-mental-health-discourse-analysis",
           title: 'Mental Health Discourse Analysis',
           description: "LIS3813 Introduction to Text Processing",
