@@ -1,80 +1,95 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: "User Experience in Mental Health Applications"
+description: "LIS7010 User Interface Design"
+img: "assets/img/mhapps_cover.jpg"
+importance: 1
+category: "2025"
+published: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Analyzed **46,216 Google Play Store reviews from six mental health apps** to examine how app quality and emotional tone relate to user ratings. Developed a framework of **four quality dimensions and sixteen factors** based on MARS, MAUQ, PSSUQ, and SUS.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Methods:** TF-IDF Keyword Extraction · Quality Factor Labeling · VADER Sentiment Analysis · Linear Regression · Moderation Analysis
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Data
+The dataset consists of Google Play Store reviews collected from six mental health applications.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+| Application | App ID | Number of Reviews |
+|---|---:|---:|
+| Voidpet Garden: Mental Health | com.voidpet | 3,210 |
+| BetterMe: Mental Health | com.gen.bettermeditation | 4,886 |
+| MindDoc: Mental Health Support | de.moodpath.android | 8,120 |
+| BetterHelp - Therapy | com.betterhelp | 10,000 |
+| Youper: AI Therapy | br.com.youper | 10,000 |
+| Wysa: Anxiety, therapy chatbot | bot.touchkin | 10,000 |
+
+---
+## App Quality Framework
+
+To construct the app quality framework, this project reviewed four established usability and quality evaluation instruments:
+
+- **MARS**: Mobile App Rating Scale
+- **MAUQ**: Mobile App Usability Questionnaire
+- **PSSUQ**: Post-Study System Usability Questionnaire
+- **SUS**: System Usability Scale
+
+Based on these instruments, app quality was organized into four higher-level categories and sixteen detailed quality factors.
+
+| Higher-level Quality Factor | Detailed Quality Factors |
+|---|---|
+| Usability | Learnability, Navigation, Error Recovery, Feedback |
+| Functionality | Completeness, Stability, Responsiveness, Integration |
+| Information | Accuracy, Visual Explanation, Credibility, Structure |
+| Engagement | Design, Interactivity, Customization, Entertainment |
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="/assets/img/mhapp_research framework.png" class="img-fluid rounded z-depth-1" alt="Research framework for app quality and user experience">
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Research framework
 </div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## TF-IDF Keyword Extraction
 
-{% raw %}
+TF-IDF was used to identify important word stems in the review corpus. Words with a maximum TF-IDF value of **0.7 or higher** were selected and then mapped to the app quality framework.
 
-```html
+Examples of mapped word stems include:
+
+| Quality Factor | Example Word Stems |
+|---|---|
+| Learnability | easy, learn, quick, simple, understand |
+| Navigation | screen, menu, button, access, page |
+| Stability | crash, bug, freeze, lag, load |
+| Credibility | trust, evidence, expert, source, reliable |
+| Entertainment | fun, enjoy, game, interesting, love |
+
+## Key Findings
+
+- **App quality:** Functionality and information mentions were associated with lower ratings, while usability and engagement mentions were associated with higher ratings.
+- **Specific factors:** Navigation and completeness showed the strongest negative associations with ratings, while entertainment and interactivity were positively associated.
+- **Emotional context:** Sentiment moderated the relationship between quality-factor mentions and ratings, with the strongest positive interaction effects for navigation and completeness.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="/assets/img/mhapps_detailed_quality_coefficients.png"
+         class="img-fluid rounded z-depth-1"
+         alt="Regression coefficients of detailed app quality factors">
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Associations between app quality factors and user ratings.
+</div>
+
+**Takeaway:** Understanding user experience requires considering both the quality factors users mention and the emotional context of their reviews.
+
+**Tools:** Python · Pandas · Scikit-learn · Statsmodels · VADER
+## Tools Used
+`Python · Pandas · Scikit-learn · Statsmodels · TF-IDF · VADER · Text Mining · Linear Regression · User Review Analysis `
