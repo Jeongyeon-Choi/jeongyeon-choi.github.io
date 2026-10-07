@@ -4,7 +4,7 @@ title: "User Experience in Mental Health Applications"
 description: "LIS7010 User Interface Design"
 img: "assets/img/mhapps_cover.jpg"
 importance: 1
-category: "2025"
+category: 2025
 published: true
 ---
 
