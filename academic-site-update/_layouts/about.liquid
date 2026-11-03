@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<div class="post academic-about">
+  <article>
+    <div class="academic-intro{% unless page.profile %} academic-intro--text-only{% endunless %}">
+      <div class="academic-bio">
+        <header class="post-header">
+          {% if page.affiliation %}<p class="academic-eyebrow">{{ page.affiliation }}</p>{% endif %}
+          <h1 class="post-title">
+            {% if site.title == 'blank' %}
+              {{ site.first_name }} {{ site.middle_name }} <strong>{{ site.last_name }}</strong>
+            {% else %}
+              {% assign surname_markup = site.last_name | prepend: '<strong>' | append: '</strong>' %}
+              {{ site.title | replace: site.last_name, surname_markup }}
+            {% endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+        </header>
+        <div class="academic-biography">{{ content }}</div>
+        <nav class="academic-actions" aria-label="Research and curriculum vitae">
+          <a class="academic-action-primary" href="{{ '/publications/' | relative_url }}">View publications <span aria-hidden="true">&rarr;</span></a>
+          <a href="{{ '/cv/' | relative_url }}">Curriculum vitae <span aria-hidden="true">&rarr;</span></a>
+        </nav>
+      </div>
+
+      {% if page.profile %}
+        <aside class="academic-profile" aria-label="Profile and contact">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% assign profile_image_alt = site.first_name | append: ' ' | append: site.last_name %}
+            {% assign profile_image_class = 'img-fluid academic-portrait' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = profile_image_class | append: ' rounded-circle' %}
+            {% endif %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes="(min-width: 768px) 220px, 144px" alt=profile_image_alt cache_bust=true %}
+          {% endif %}
+          {% if page.profile.more_info %}<div class="more-info">{{ page.profile.more_info }}</div>{% endif %}
+          {% if page.social %}
+            {% if site.data.socials.email %}
+              <a class="academic-email" href="mailto:{{ site.data.socials.email | encode_email }}">{{ site.data.socials.email }}</a>
+            {% endif %}
+            <div class="social academic-social">
+              <div class="contact-icons">{% include social.liquid %}</div>
+              {% if site.contact_note %}<div class="contact-note">{{ site.contact_note }}</div>{% endif %}
+            </div>
+          {% endif %}
+        </aside>
+      {% endif %}
+    </div>
+
+    {% if page.research_interests %}
+      <section class="academic-section" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research interests</h2>
+        <ul class="academic-interests">
+          {% for interest in page.research_interests %}<li>{{ interest }}</li>{% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% include research-network.liquid %}
+
+    {% if page.announcements and page.announcements.enabled %}
+      <section class="academic-section" aria-labelledby="news-heading">
+        <div class="academic-section-heading">
+          <h2 id="news-heading">Recent news</h2>
+          <a href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        {% include news.liquid limit=true %}
+      </section>
+    {% endif %}
+
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <section class="academic-section" aria-labelledby="posts-heading">
+        <h2 id="posts-heading"><a href="{{ '/blog/' | relative_url }}">Latest posts</a></h2>
+        {% include latest_posts.liquid %}
+      </section>
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <section class="academic-section" aria-labelledby="papers-heading">
+        <h2 id="papers-heading"><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
+        {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
+
+    {% unless page.profile %}
+      {% if page.social %}
+        <div class="social academic-social">
+          <div class="contact-icons">{% include social.liquid %}</div>
+          {% if site.contact_note %}<div class="contact-note">{{ site.contact_note }}</div>{% endif %}
+        </div>
+      {% endif %}
+    {% endunless %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>

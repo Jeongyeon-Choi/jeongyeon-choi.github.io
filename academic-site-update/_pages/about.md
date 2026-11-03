@@ -1,0 +1,33 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: Master's Candidate, Library and Information Science
+affiliation: Yonsei University
+research_interests:
+  - Science of Science
+  - Mental Health Informatics
+  - Computational Social Science
+
+profile:
+  align: right
+  image: jeongyeon-choi-headshot.jpg
+  image_circular: true # crops the image to make it circular
+
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: false # show the latest items without a nested scroll area
+  limit: 3 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+I am a master’s student in the Department of Library and Information Science at [Yonsei University](https://www.yonsei.ac.kr/en_sc/index.do), studying under the supervision of Dr. Yongjun Zhu at [DataLab](https://datalab.yonsei.ac.kr/). I recently completed a dual master’s degree program in Library and Information Science at Simmons University with a concentration in [Information Science and Technology](https://www.simmons.edu/graduate/academic-programs/graduate-and-certificate-programs/library-and-information-science-information-science-technology).
+
+I primarily work in the areas of [science of science](https://en.wikipedia.org/wiki/Metascience), [mental health informatics](https://en.wikipedia.org/wiki/Mental_health_informatics), and [computational social science](https://en.wikipedia.org/wiki/Computational_social_science). Using methods from data science and computational analysis, I study large-scale datasets such as academic publications, bibliometric records, and social media content to explore how knowledge is shared and used in digital environments.
