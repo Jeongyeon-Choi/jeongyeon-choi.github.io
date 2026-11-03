@@ -1,0 +1,68 @@
+<section class="academic-section research-network" aria-labelledby="network-heading" data-research-network>
+  <div class="academic-section-heading">
+    <h2 id="network-heading">Research connections</h2>
+    <span class="network-count">2 publications · 2026</span>
+  </div>
+  <p class="network-introduction">A network of my publications and their research areas.</p>
+
+  <div class="network-explorer">
+    <div class="network-canvas" hidden>
+      <svg class="network-svg" viewBox="0 0 700 420" role="group" aria-label="Jeongyeon Choi connected to two publications and their research areas">
+        <g class="network-edges" aria-hidden="true">
+          <path class="network-authorship" data-paper="choi2026matthew" d="M350 190 L150 130" />
+          <path class="network-authorship" data-paper="choi2026affordance" d="M350 190 L550 130" />
+          <path class="network-topic-edge" data-paper="choi2026matthew" d="M150 153 L150 320" />
+          <path class="network-topic-edge" data-paper="choi2026affordance" d="M550 153 L550 320" />
+        </g>
+        <g class="network-ego" transform="translate(350 190)">
+          <circle class="network-ego-halo" r="47" />
+          <circle class="network-ego-core" r="34" />
+          <text class="network-initials" y="6" text-anchor="middle" aria-hidden="true">JC</text>
+          <text class="network-person" y="70" text-anchor="middle">Jeongyeon <tspan font-weight="700">Choi</tspan></text>
+          <text class="network-role" y="91" text-anchor="middle">Researcher</text>
+        </g>
+        {% for paper in site.data.research_network.papers %}
+          {% if forloop.first %}{% assign node_x = 150 %}{% else %}{% assign node_x = 550 %}{% endif %}
+          <g class="network-paper" data-paper="{{ paper.id }}" transform="translate({{ node_x }} 130)" role="button" tabindex="0" aria-pressed="false" aria-label="Explore {{ paper.short_title }}" aria-controls="network-detail-{{ paper.id }}">
+            <rect class="network-hit-area" x="-80" y="-76" width="160" height="110" rx="8" />
+            <circle class="network-paper-ring" r="27" />
+            <circle class="network-paper-dot" r="19" />
+            <text class="network-node-year" text-anchor="middle" y="-58">{{ paper.year }}</text>
+            <text class="network-node-title" text-anchor="middle" y="-38">{{ paper.short_title }}</text>
+          </g>
+          <g class="network-topic" data-paper="{{ paper.id }}" transform="translate({{ node_x }} 330)">
+            <circle r="7" />
+            <text text-anchor="middle" y="30">{% for line in paper.topic_lines %}<tspan x="0" dy="{% if forloop.first %}0{% else %}18{% endif %}">{{ line }}</tspan>{% endfor %}</text>
+          </g>
+        {% endfor %}
+      </svg>
+      <div class="network-legend" aria-label="Connection types">
+        <span><i class="network-legend-solid" aria-hidden="true"></i>Authorship</span>
+        <span><i class="network-legend-dashed" aria-hidden="true"></i>Research area</span>
+      </div>
+    </div>
+
+    <div class="network-details" aria-live="polite" aria-atomic="true">
+      {% for paper in site.data.research_network.papers %}
+        <article class="network-detail" id="network-detail-{{ paper.id }}" data-paper="{{ paper.id }}">
+          <p class="network-detail-kicker">Publication · {{ paper.year }}</p>
+          <h3>{{ paper.title }}</h3>
+          <p class="network-authors">{{ paper.authors }}</p>
+          <p class="network-venue">{{ paper.venue }}</p>
+          <p class="network-summary">{{ paper.summary }}</p>
+          <p class="network-topic-label">{{ paper.topic }}</p>
+          <div class="network-detail-links">
+            <a href="{{ '/publications/' | relative_url }}#{{ paper.id }}">Publication details <span aria-hidden="true">&rarr;</span></a>
+            {% if paper.doi %}<a href="{{ paper.doi }}">DOI <span aria-hidden="true">&nearr;</span></a>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="network-paper-picker" role="group" aria-label="Select a publication" hidden>
+    {% for paper in site.data.research_network.papers %}
+      <button type="button" data-paper="{{ paper.id }}" aria-pressed="false" aria-controls="network-detail-{{ paper.id }}">{{ paper.short_title }}</button>
+    {% endfor %}
+  </div>
+</section>
+<script defer src="{{ '/assets/js/research-network.js' | relative_url | bust_file_cache }}"></script>

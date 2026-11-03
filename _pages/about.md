@@ -3,6 +3,11 @@ layout: about
 title: about
 permalink: /
 subtitle: Master's Candidate, Library and Information Science
+affiliation: Yonsei University
+research_interests:
+  - Science of Science
+  - Mental Health Informatics
+  - Computational Social Science
 
 profile:
   align: right
@@ -14,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # show the latest items without a nested scroll area
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:

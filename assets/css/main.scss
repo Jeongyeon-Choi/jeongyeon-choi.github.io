@@ -77,12 +77,14 @@ $max-content-width: {{ site.max_width }};
 
 .cv a,
 .cv a:visited {
-  color: #000000 !important;
+  color: var(--global-text-color) !important;
   text-decoration: none !important;
 }
 
 .cv a:hover,
 .cv a:focus {
-  color: #000000 !important;
+  color: var(--global-theme-color) !important;
   text-decoration: underline !important;
 }
+
+@import "academic";
