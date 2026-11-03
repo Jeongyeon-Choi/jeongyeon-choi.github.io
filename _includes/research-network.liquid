@@ -53,7 +53,7 @@
           <p class="network-topic-label">{{ paper.topic }}</p>
           <div class="network-detail-links">
             <a href="{{ '/publications/' | relative_url }}#{{ paper.id }}">Publication details <span aria-hidden="true">&rarr;</span></a>
-            {% if paper.doi %}<a href="{{ paper.doi }}">DOI <span aria-hidden="true">&nearr;</span></a>{% endif %}
+            {% if paper.doi %}<a href="{{ paper.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
           </div>
         </article>
       {% endfor %}
