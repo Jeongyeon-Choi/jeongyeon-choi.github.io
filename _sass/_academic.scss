@@ -180,3 +180,23 @@ footer.sticky-bottom .container { text-align: left; color: var(--global-text-col
   .network-detail { padding: 1.25rem; }
   .network-introduction { margin-top: 0; }
 }
+
+/* Keep labels legible where authorship edges pass behind them. */
+.network-node-year { paint-order: stroke; stroke: var(--global-bg-color); stroke-width: 7; stroke-linejoin: round; }
+.network-status { font-weight: 600; color: var(--global-theme-color); }
+
+/* Movable nodes and shared research-area connections. */
+.network-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 0 1.25rem 0.75rem; }
+.network-tools p { margin: 0; font-size: 0.72rem; color: var(--global-text-color-light); flex: 1 1 200px; }
+.network-reset { border: 1px solid var(--global-divider-color); border-radius: 3px; padding: 0.4rem 0.7rem; min-height: 40px; font: inherit; font-size: 0.75rem; background: var(--global-bg-color); color: var(--global-theme-color); cursor: pointer; }
+.network-movable { cursor: grab; touch-action: none; user-select: none; }
+.network-movable.is-dragging { cursor: grabbing; }
+.network-movable:focus-visible { outline: none; }
+.network-ego:focus-visible .network-ego-halo, .network-topic:focus-visible .network-topic-dot { stroke: var(--global-theme-color); stroke-width: 3; stroke-dasharray: 3 3; }
+.network-topic .network-topic-hit, .network-topic.is-selected .network-topic-hit { fill: transparent; stroke: none; }
+.network-svg .network-node-subtitle { font-size: 11px; fill: var(--global-text-color-light); }
+.network-svg text { pointer-events: none; paint-order: stroke; stroke: var(--global-bg-color); stroke-width: 5; stroke-linejoin: round; }
+.network-svg .network-initials { stroke: none; }
+.network-edges path.is-related { stroke: var(--global-theme-color); stroke-opacity: 0.55; }
+.network-edges path.is-selected { stroke-opacity: 1; }
+.network-paper.is-related .network-paper-dot { stroke: var(--global-theme-color); stroke-width: 2; }

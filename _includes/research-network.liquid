@@ -1,38 +1,51 @@
+{% assign network_papers = site.data.research_network.papers %}
+{% assign network_topics = network_papers | map: 'topic' | uniq %}
+{% assign network_years = network_papers | map: 'year' | sort %}
 <section class="academic-section research-network" aria-labelledby="network-heading" data-research-network>
   <div class="academic-section-heading">
     <h2 id="network-heading">Research connections</h2>
-    <span class="network-count">2 publications · 2026</span>
+    <span class="network-count">{{ network_papers | size }} publications · {{ network_years.first }}{% if network_years.last != network_years.first %}–{{ network_years.last }}{% endif %}</span>
   </div>
   <p class="network-introduction">A network of my publications and their research areas.</p>
 
   <div class="network-explorer">
     <div class="network-canvas" hidden>
-      <svg class="network-svg" viewBox="0 0 700 420" role="group" aria-label="Jeongyeon Choi connected to two publications and their research areas">
+      <div class="network-tools">
+        <p>Drag nodes to rearrange. Select a paper to read more.</p>
+        <button type="button" class="network-reset">Reset layout</button>
+      </div>
+      <p class="sr-only" id="network-keyboard-help">Use arrow keys to move a focused node. Press Enter to select a paper or cycle through papers in a research area. Reset layout restores all positions.</p>
+      <svg class="network-svg" viewBox="0 0 700 580" role="group" aria-label="Jeongyeon Choi connected to {{ network_papers | size }} publications and their research areas">
         <g class="network-edges" aria-hidden="true">
-          <path class="network-authorship" data-paper="choi2026matthew" d="M350 190 L150 130" />
-          <path class="network-authorship" data-paper="choi2026affordance" d="M350 190 L550 130" />
-          <path class="network-topic-edge" data-paper="choi2026matthew" d="M150 153 L150 320" />
-          <path class="network-topic-edge" data-paper="choi2026affordance" d="M550 153 L550 320" />
+          {% for paper in network_papers %}
+            <path class="network-authorship" data-paper="{{ paper.id }}" data-topic="{{ paper.topic | escape }}" />
+            <path class="network-topic-edge" data-paper="{{ paper.id }}" data-topic="{{ paper.topic | escape }}" />
+          {% endfor %}
         </g>
-        <g class="network-ego" transform="translate(350 190)">
+        <g class="network-ego network-movable" tabindex="0" role="img" aria-label="Jeongyeon Choi; use arrow keys to move" aria-describedby="network-keyboard-help">
           <circle class="network-ego-halo" r="47" />
           <circle class="network-ego-core" r="34" />
           <text class="network-initials" y="6" text-anchor="middle" aria-hidden="true">JC</text>
-          <text class="network-person" y="70" text-anchor="middle">Jeongyeon <tspan font-weight="700">Choi</tspan></text>
-          <text class="network-role" y="91" text-anchor="middle">Researcher</text>
+          <text class="network-person" y="-70" text-anchor="middle">Jeongyeon <tspan font-weight="700">Choi</tspan></text>
+          <text class="network-role" y="-49" text-anchor="middle">Researcher</text>
         </g>
         {% for paper in site.data.research_network.papers %}
-          {% if forloop.first %}{% assign node_x = 150 %}{% else %}{% assign node_x = 550 %}{% endif %}
-          <g class="network-paper" data-paper="{{ paper.id }}" transform="translate({{ node_x }} 130)" role="button" tabindex="0" aria-pressed="false" aria-label="Explore {{ paper.short_title }}" aria-controls="network-detail-{{ paper.id }}">
-            <rect class="network-hit-area" x="-80" y="-76" width="160" height="110" rx="8" />
+          <g class="network-paper network-movable" data-paper="{{ paper.id }}" data-topic="{{ paper.topic | escape }}" role="button" tabindex="0" aria-pressed="false" aria-label="Explore {{ paper.short_title | escape }} ({{ paper.year }})" aria-describedby="network-keyboard-help" aria-controls="network-detail-{{ paper.id }}">
+            <rect class="network-hit-area" x="-90" y="-76" width="180" height="110" rx="8" />
             <circle class="network-paper-ring" r="27" />
             <circle class="network-paper-dot" r="19" />
+            <title>{{ paper.title | escape }}</title>
             <text class="network-node-year" text-anchor="middle" y="-58">{{ paper.year }}</text>
-            <text class="network-node-title" text-anchor="middle" y="-38">{{ paper.short_title }}</text>
+            <text class="network-node-title" text-anchor="middle" y="-38">{{ paper.short_title | escape }}</text>
+            {% if paper.graph_subtitle %}<text class="network-node-subtitle" text-anchor="middle" y="-20">{{ paper.graph_subtitle | escape }}</text>{% endif %}
           </g>
-          <g class="network-topic" data-paper="{{ paper.id }}" transform="translate({{ node_x }} 330)">
-            <circle r="7" />
-            <text text-anchor="middle" y="30">{% for line in paper.topic_lines %}<tspan x="0" dy="{% if forloop.first %}0{% else %}18{% endif %}">{{ line }}</tspan>{% endfor %}</text>
+        {% endfor %}
+        {% for topic in network_topics %}
+          {% assign topic_paper = network_papers | where: 'topic', topic | first %}
+          <g class="network-topic network-movable" data-topic="{{ topic | escape }}" tabindex="0" role="button" aria-label="Explore {{ topic | escape }} publications" aria-describedby="network-keyboard-help">
+            <circle class="network-topic-hit" r="24" />
+            <circle class="network-topic-dot" r="10" />
+            <text text-anchor="middle" y="30">{% for line in topic_paper.topic_lines %}<tspan x="0" dy="{% if forloop.first %}0{% else %}18{% endif %}">{{ line }}</tspan>{% endfor %}</text>
           </g>
         {% endfor %}
       </svg>
@@ -49,6 +62,7 @@
           <h3>{{ paper.title }}</h3>
           <p class="network-authors">{{ paper.authors }}</p>
           <p class="network-venue">{{ paper.venue }}</p>
+          {% if paper.status %}<p class="network-summary network-status">{{ paper.status }}</p>{% endif %}
           <p class="network-summary">{{ paper.summary }}</p>
           <p class="network-topic-label">{{ paper.topic }}</p>
           <div class="network-detail-links">
@@ -61,7 +75,7 @@
   </div>
   <div class="network-paper-picker" role="group" aria-label="Select a publication" hidden>
     {% for paper in site.data.research_network.papers %}
-      <button type="button" data-paper="{{ paper.id }}" aria-pressed="false" aria-controls="network-detail-{{ paper.id }}">{{ paper.short_title }}</button>
+      <button type="button" data-paper="{{ paper.id }}" aria-pressed="false" aria-controls="network-detail-{{ paper.id }}">{{ paper.short_title | escape }} · {{ paper.year }}</button>
     {% endfor %}
   </div>
 </section>

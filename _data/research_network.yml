@@ -1,4 +1,4 @@
-# Curated display metadata for the two publications in _bibliography/papers.bib.
+# Curated display metadata for the publications in _bibliography/papers.bib.
 # IDs match bibliography anchors. No unpublished projects are included.
 papers:
   - id: choi2026matthew
@@ -9,10 +9,11 @@ papers:
     year: 2026
     topic: Science of Science
     topic_lines: [Science of, Science]
-    summary: "An empirical study of how institutional prestige relates to open peer review outcomes, review duration, and the role of authors’ scholarly impact."
+    summary: "An empirical study of how institutional prestige relates to open peer review outcomes and the role of authors’ scholarly impact."
     doi: https://doi.org/10.1016/j.joi.2026.101849
   - id: choi2026affordance
     short_title: Mental health apps
+    graph_subtitle: Feature framework
     title: "Developing an affordance-based feature framework for depression-focused mental health applications"
     authors: "Jeongyeon Choi and Shengang Wang"
     venue: Proceedings of the Association for Information Science and Technology
@@ -20,3 +21,14 @@ papers:
     topic: Mental Health Informatics
     topic_lines: [Mental Health, Informatics]
     summary: "An affordance-based framework for depression-focused mental health apps, covering monitoring and self-management, educational support, self-reflection, and decision-making support."
+  - id: choi2027attitudes
+    short_title: Mental health apps
+    graph_subtitle: Features & attitudes
+    title: "Understanding features and user attitudes in depression-focused mental health applications: An affordance-based approach"
+    authors: "Jeongyeon Choi and Shengang Wang"
+    venue: Information Research
+    year: 2027
+    status: "Accepted for publication; Short Paper Presentation at iConference 2027"
+    topic: Mental Health Informatics
+    topic_lines: [Mental Health, Informatics]
+    summary: "An affordance-based study of features and user attitudes in depression-focused mental health applications."
